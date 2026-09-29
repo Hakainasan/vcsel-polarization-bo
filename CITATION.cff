@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the supplementary methodology and the repository."
+title: "ML-Guided Discovery of Polarization-Switching VCSEL Apertures"
+type: software
+version: "0.1.0"
+date-released: 2026-09-29
+authors:
+  - family-names: Morozova
+    given-names: Polina
+repository-code: "https://github.com/YOUR_GITHUB_USERNAME/vcsel-polarization-bo"
+keywords:
+  - VCSEL
+  - polarization switching
+  - machine learning
+  - Gaussian process regression
+  - Bayesian optimization
+  - photonic Ising machine
