@@ -7,7 +7,7 @@ date-released: 2026-09-29
 authors:
   - family-names: Morozova
     given-names: Polina
-repository-code: "https://github.com/YOUR_GITHUB_USERNAME/vcsel-polarization-bo"
+repository-code: "https://github.com/Hakainasan/vcsel-polarization-bo"
 keywords:
   - VCSEL
   - polarization switching
