@@ -1,0 +1,94 @@
+{
+ "note": "synthetic preposterior analysis, well-specified case (optimistic); model predictions",
+ "n_worlds": 64,
+ "pool": 177,
+ "reps_per_world": 20,
+ "no_measurement": {
+  "design_index": 137,
+  "mean_yield": 0.6391059027777778
+ },
+ "oracle_mean_yield": 0.8615451388888888,
+ "counts T1 n2": {
+  "observation_model": "counts",
+  "temperature": 1.0,
+  "n_devices_per_design": 2,
+  "mean_yield_of_chosen_design": 0.6979437934027779,
+  "mean_ess": 3.008763325031732,
+  "posterior_prob_of_true_sign_kb": 0.8167879917984175,
+  "mean_abs_error_log10_d0": 0.16643783411161
+ },
+ "counts T1 n4": {
+  "observation_model": "counts",
+  "temperature": 1.0,
+  "n_devices_per_design": 4,
+  "mean_yield_of_chosen_design": 0.6864908854166667,
+  "mean_ess": 1.9764210196345986,
+  "posterior_prob_of_true_sign_kb": 0.8437433699202253,
+  "mean_abs_error_log10_d0": 0.16261649590813607
+ },
+ "counts T1 n8": {
+  "observation_model": "counts",
+  "temperature": 1.0,
+  "n_devices_per_design": 8,
+  "mean_yield_of_chosen_design": 0.6790961371527777,
+  "mean_ess": 1.4895682963612118,
+  "posterior_prob_of_true_sign_kb": 0.8657020817209229,
+  "mean_abs_error_log10_d0": 0.1654834699901698
+ },
+ "counts+shape T1 n2": {
+  "observation_model": "counts+shape",
+  "temperature": 1.0,
+  "n_devices_per_design": 2,
+  "mean_yield_of_chosen_design": 0.6754720052083334,
+  "mean_ess": 1.6533919232386876,
+  "posterior_prob_of_true_sign_kb": 0.883677699082073,
+  "mean_abs_error_log10_d0": 0.18555181390563705
+ },
+ "counts+shape T1 n4": {
+  "observation_model": "counts+shape",
+  "temperature": 1.0,
+  "n_devices_per_design": 4,
+  "mean_yield_of_chosen_design": 0.6841037326388889,
+  "mean_ess": 1.414123020126817,
+  "posterior_prob_of_true_sign_kb": 0.9069245551801549,
+  "mean_abs_error_log10_d0": 0.17968731533029283
+ },
+ "counts+shape T1 n8": {
+  "observation_model": "counts+shape",
+  "temperature": 1.0,
+  "n_devices_per_design": 8,
+  "mean_yield_of_chosen_design": 0.6875,
+  "mean_ess": 1.2616344754663251,
+  "posterior_prob_of_true_sign_kb": 0.9053825769410626,
+  "mean_abs_error_log10_d0": 0.1832744714503382
+ },
+ "counts+shape T4 n2": {
+  "observation_model": "counts+shape",
+  "temperature": 4.0,
+  "n_devices_per_design": 2,
+  "mean_yield_of_chosen_design": 0.691433376736111,
+  "mean_ess": 3.4964068926495684,
+  "posterior_prob_of_true_sign_kb": 0.8496967882207682,
+  "mean_abs_error_log10_d0": 0.1736931421951408
+ },
+ "counts+shape T4 n4": {
+  "observation_model": "counts+shape",
+  "temperature": 4.0,
+  "n_devices_per_design": 4,
+  "mean_yield_of_chosen_design": 0.6992838541666666,
+  "mean_ess": 2.830583900364644,
+  "posterior_prob_of_true_sign_kb": 0.8617677759152438,
+  "mean_abs_error_log10_d0": 0.17215305436895223
+ },
+ "counts+shape T4 n8": {
+  "observation_model": "counts+shape",
+  "temperature": 4.0,
+  "n_devices_per_design": 8,
+  "mean_yield_of_chosen_design": 0.7019856770833333,
+  "mean_ess": 2.2274538055326745,
+  "posterior_prob_of_true_sign_kb": 0.8750156463154678,
+  "mean_abs_error_log10_d0": 0.16903683061675698
+ },
+ "prior_sign_kb_positive_fraction": 0.171875,
+ "prior_std_log10_d0": 0.26690767283250927
+}

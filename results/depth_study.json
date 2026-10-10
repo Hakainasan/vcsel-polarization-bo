@@ -1,0 +1,1111 @@
+{
+ "note": "GEOMETRY ONLY: target aperture -> mesa (target grown by D) -> aperture after oxidation of depth D; anisotropic = rate ratio 1.15 (placeholder, not measured)",
+ "depths": [
+  1.0,
+  2.0,
+  3.0,
+  5.0,
+  8.0,
+  10.0
+ ],
+ "targets": {
+  "A60 (mask 1, family A)": {
+   "target": {
+    "L": 17.5,
+    "short": 12.25,
+    "w": 6.0,
+    "tip_radius": 0.0,
+    "theta": 60.0,
+    "area": 142.49276196802248,
+    "solidity": 0.8031533883000802,
+    "aspect": 1.5745880084572035,
+    "axis_deg": 60.01214989715684
+   },
+   "by_depth": {
+    "1.0": {
+     "mesa": {
+      "L": 19.5,
+      "short": 14.25,
+      "w": 8.0,
+      "tip_radius": 1.0
+     },
+     "isotropic": {
+      "area": 143.3542649139381,
+      "solidity": 0.8081829537259577,
+      "aspect": 1.5706416689232687,
+      "axis_deg": 60.01447853505191,
+      "area_rel_target": 1.0060459418009524,
+      "components": 1,
+      "area_at_depth_minus10pct": 149.13056224300612,
+      "area_at_depth_plus10pct": 137.63507185736057
+     },
+     "anisotropic": {
+      "area": 143.47281605153182,
+      "solidity": 0.8104788221495869,
+      "aspect": 1.5614768658147602,
+      "axis_deg": 59.877894451576424,
+      "area_rel_target": 1.0068779218675632,
+      "components": 1,
+      "area_at_depth_minus10pct": 149.23972776273854,
+      "area_at_depth_plus10pct": 137.76387290853154
+     }
+    },
+    "2.0": {
+     "mesa": {
+      "L": 21.5,
+      "short": 16.25,
+      "w": 10.0,
+      "tip_radius": 2.0
+     },
+     "isotropic": {
+      "area": 145.94068421425004,
+      "solidity": 0.8227662745498746,
+      "aspect": 1.5575496880987916,
+      "axis_deg": 60.01052209224628,
+      "area_rel_target": 1.0241971746396588,
+      "components": 1,
+      "area_at_depth_minus10pct": 157.24889936449654,
+      "area_at_depth_plus10pct": 134.9155777926976
+     },
+     "anisotropic": {
+      "area": 146.18228150148104,
+      "solidity": 0.8299439201677549,
+      "aspect": 1.5384603459217827,
+      "axis_deg": 59.478268168889535,
+      "area_rel_target": 1.0258926803193453,
+      "components": 1,
+      "area_at_depth_minus10pct": 157.44385393111475,
+      "area_at_depth_plus10pct": 135.25296153239526
+     }
+    },
+    "3.0": {
+     "mesa": {
+      "L": 23.5,
+      "short": 18.25,
+      "w": 12.0,
+      "tip_radius": 3.0
+     },
+     "isotropic": {
+      "area": 150.2466755773712,
+      "solidity": 0.8470427296482358,
+      "aspect": 1.5329068750186763,
+      "axis_deg": 60.01139760039393,
+      "area_rel_target": 1.054416192810473,
+      "components": 1,
+      "area_at_depth_minus10pct": 166.81480429876137,
+      "area_at_depth_plus10pct": 134.35080215831113
+     },
+     "anisotropic": {
+      "area": 150.63000915365637,
+      "solidity": 0.857769368750784,
+      "aspect": 1.503817631866447,
+      "axis_deg": 58.68332361936978,
+      "area_rel_target": 1.057106389638654,
+      "components": 1,
+      "area_at_depth_minus10pct": 167.06188900091706,
+      "area_at_depth_plus10pct": 135.01467823365874
+     }
+    },
+    "5.0": {
+     "mesa": {
+      "L": 27.5,
+      "short": 22.25,
+      "w": 16.0,
+      "tip_radius": 5.0
+     },
+     "isotropic": {
+      "area": 158.5727416187708,
+      "solidity": 0.8935854944776795,
+      "aspect": 1.4959335389013038,
+      "axis_deg": 60.022605944102835,
+      "area_rel_target": 1.1128476943576748,
+      "components": 1,
+      "area_at_depth_minus10pct": 185.43527672911023,
+      "area_at_depth_plus10pct": 133.5729704621058
+     },
+     "anisotropic": {
+      "area": 159.35405759601258,
+      "solidity": 0.905997416186787,
+      "aspect": 1.4476263037782782,
+      "axis_deg": 56.086611780610745,
+      "area_rel_target": 1.118330892005406,
+      "components": 1,
+      "area_at_depth_minus10pct": 185.85639444889284,
+      "area_at_depth_plus10pct": 134.80490187881617
+     }
+    },
+    "8.0": {
+     "mesa": {
+      "L": 33.5,
+      "short": 28.25,
+      "w": 22.0,
+      "tip_radius": 8.0
+     },
+     "isotropic": {
+      "area": 166.08859732028122,
+      "solidity": 0.9351147189336383,
+      "aspect": 1.4846676622837207,
+      "axis_deg": 60.00516772154525,
+      "area_rel_target": 1.1655932205002386,
+      "components": 1,
+      "area_at_depth_minus10pct": 208.87471307302417,
+      "area_at_depth_plus10pct": 127.85759109665923
+     },
+     "anisotropic": {
+      "area": 167.29082896316334,
+      "solidity": 0.9488585880616469,
+      "aspect": 1.4151015392098856,
+      "axis_deg": 51.90247349348877,
+      "area_rel_target": 1.174030362333112,
+      "components": 1,
+      "area_at_depth_minus10pct": 209.48353694803927,
+      "area_at_depth_plus10pct": 129.6407576242317
+     }
+    },
+    "10.0": {
+     "mesa": {
+      "L": 37.5,
+      "short": 32.25,
+      "w": 26.0,
+      "tip_radius": 10.0
+     },
+     "isotropic": {
+      "area": 168.80641137775274,
+      "solidity": 0.9497956813138229,
+      "aspect": 1.4815423403122239,
+      "axis_deg": 59.99916619510569,
+      "area_rel_target": 1.1846665686474338,
+      "components": 1,
+      "area_at_depth_minus10pct": 222.61091474665955,
+      "area_at_depth_plus10pct": 121.91360370614575
+     },
+     "anisotropic": {
+      "area": 169.9704177674481,
+      "solidity": 0.9633506170769489,
+      "aspect": 1.4023245886974491,
+      "axis_deg": 49.07777232302778,
+      "area_rel_target": 1.192835449463686,
+      "components": 1,
+      "area_at_depth_minus10pct": 223.10469794155279,
+      "area_at_depth_plus10pct": 123.76787916992384
+     }
+    }
+   }
+  },
+  "B90 (mask 1, family B)": {
+   "target": {
+    "L": 15.0,
+    "short": 10.5,
+    "w": 6.0,
+    "tip_radius": 2.25,
+    "theta": 90.0,
+    "area": 108.18258635687562,
+    "solidity": 0.921462860902771,
+    "aspect": 1.5779178369806968,
+    "axis_deg": 89.88652267027311
+   },
+   "by_depth": {
+    "1.0": {
+     "mesa": {
+      "L": 17.0,
+      "short": 12.5,
+      "w": 8.0,
+      "tip_radius": 3.25
+     },
+     "isotropic": {
+      "area": 108.77546941014782,
+      "solidity": 0.9265944934995369,
+      "aspect": 1.5729815266013245,
+      "axis_deg": 90.00218787045858,
+      "area_rel_target": 1.0054803926698184,
+      "components": 1,
+      "area_at_depth_minus10pct": 113.01164058029352,
+      "area_at_depth_plus10pct": 104.58528189831954
+     },
+     "anisotropic": {
+      "area": 109.26937849955752,
+      "solidity": 0.9259149444537973,
+      "aspect": 1.5479149231789744,
+      "axis_deg": 90.00706644144965,
+      "area_rel_target": 1.0100459064557465,
+      "components": 1,
+      "area_at_depth_minus10pct": 113.45422818606389,
+      "area_at_depth_plus10pct": 105.13039517723638
+     }
+    },
+    "2.0": {
+     "mesa": {
+      "L": 19.0,
+      "short": 14.5,
+      "w": 10.0,
+      "tip_radius": 4.25
+     },
+     "isotropic": {
+      "area": 109.69131856275119,
+      "solidity": 0.9344005922459744,
+      "aspect": 1.566016274237015,
+      "axis_deg": 90.00236570622185,
+      "area_rel_target": 1.0139461650593056,
+      "components": 1,
+      "area_at_depth_minus10pct": 118.11701176493942,
+      "area_at_depth_plus10pct": 101.51821514965404
+     },
+     "anisotropic": {
+      "area": 110.71809930606058,
+      "solidity": 0.9331787310082444,
+      "aspect": 1.5121283675516026,
+      "axis_deg": 89.98614387792863,
+      "area_rel_target": 1.0234373482329286,
+      "components": 1,
+      "area_at_depth_minus10pct": 119.03891124734082,
+      "area_at_depth_plus10pct": 102.64296986101822
+     }
+    },
+    "3.0": {
+     "mesa": {
+      "L": 21.0,
+      "short": 16.5,
+      "w": 12.0,
+      "tip_radius": 5.25
+     },
+     "isotropic": {
+      "area": 110.64195630394363,
+      "solidity": 0.9425006998647876,
+      "aspect": 1.5587077790135762,
+      "axis_deg": 90.0001618866786,
+      "area_rel_target": 1.0227335103540136,
+      "components": 1,
+      "area_at_depth_minus10pct": 123.26248888549482,
+      "area_at_depth_plus10pct": 98.58504471844195
+     },
+     "anisotropic": {
+      "area": 112.22195745038852,
+      "solidity": 0.9409080534920162,
+      "aspect": 1.476701464315348,
+      "axis_deg": 90.00225211591516,
+      "area_rel_target": 1.0373384592617125,
+      "components": 1,
+      "area_at_depth_minus10pct": 124.6832784559953,
+      "area_at_depth_plus10pct": 100.32611974621533
+     }
+    },
+    "5.0": {
+     "mesa": {
+      "L": 25.0,
+      "short": 20.5,
+      "w": 16.0,
+      "tip_radius": 7.25
+     },
+     "isotropic": {
+      "area": 112.29910278475218,
+      "solidity": 0.9566174478549493,
+      "aspect": 1.5470609939238946,
+      "axis_deg": 89.99473644352557,
+      "area_rel_target": 1.0380515623308995,
+      "components": 1,
+      "area_at_depth_minus10pct": 133.42763299106636,
+      "area_at_depth_plus10pct": 92.7432459487573
+     },
+     "anisotropic": {
+      "area": 114.95004928466196,
+      "solidity": 0.9558997063552138,
+      "aspect": 1.4082304916300585,
+      "axis_deg": 89.9742984680621,
+      "area_rel_target": 1.062555935808945,
+      "components": 1,
+      "area_at_depth_minus10pct": 135.81017868423123,
+      "area_at_depth_plus10pct": 95.65898152381364
+     }
+    },
+    "8.0": {
+     "mesa": {
+      "L": 31.0,
+      "short": 26.5,
+      "w": 22.0,
+      "tip_radius": 10.25
+     },
+     "isotropic": {
+      "area": 113.65126222242789,
+      "solidity": 0.9681360766929258,
+      "aspect": 1.5368281931378034,
+      "axis_deg": 90.00012952759025,
+      "area_rel_target": 1.0505504263644803,
+      "components": 1,
+      "area_at_depth_minus10pct": 148.0328925363404,
+      "area_at_depth_plus10pct": 83.28108219826542
+     },
+     "anisotropic": {
+      "area": 117.54680958636746,
+      "solidity": 0.9678982410135981,
+      "aspect": 1.3156248290535661,
+      "axis_deg": 89.99141072343782,
+      "area_rel_target": 1.0865594320198715,
+      "components": 1,
+      "area_at_depth_minus10pct": 151.53866818630013,
+      "area_at_depth_plus10pct": 87.56795223726517
+     }
+    },
+    "10.0": {
+     "mesa": {
+      "L": 35.0,
+      "short": 30.5,
+      "w": 26.0,
+      "tip_radius": 12.25
+     },
+     "isotropic": {
+      "area": 114.21174188673172,
+      "solidity": 0.97291054406644,
+      "aspect": 1.5321988447321413,
+      "axis_deg": 90.00012868225254,
+      "area_rel_target": 1.0557312940362413,
+      "components": 1,
+      "area_at_depth_minus10pct": 157.75653937121714,
+      "area_at_depth_plus10pct": 76.941608731651
+     },
+     "anisotropic": {
+      "area": 118.69749875541659,
+      "solidity": 0.9739778350421143,
+      "aspect": 1.2610128776165261,
+      "axis_deg": 90.0,
+      "area_rel_target": 1.0971959790631562,
+      "components": 1,
+      "area_at_depth_minus10pct": 161.79205338997167,
+      "area_at_depth_plus10pct": 81.90221107525142
+     }
+    }
+   }
+  },
+  "R80 (1:0.7 cross)": {
+   "target": {
+    "L": 17.5,
+    "short": 12.25,
+    "w": 6.0,
+    "tip_radius": 1.5,
+    "theta": 80.0,
+    "area": 138.59100313528458,
+    "solidity": 0.8534907144140901,
+    "aspect": 1.5878030598221262,
+    "axis_deg": 79.98544056510934
+   },
+   "by_depth": {
+    "1.0": {
+     "mesa": {
+      "L": 19.5,
+      "short": 14.25,
+      "w": 8.0,
+      "tip_radius": 2.5
+     },
+     "isotropic": {
+      "area": 139.47658777357736,
+      "solidity": 0.8589682976034653,
+      "aspect": 1.583433137405787,
+      "axis_deg": 79.98700908112733,
+      "area_rel_target": 1.0063899143397377,
+      "components": 1,
+      "area_at_depth_minus10pct": 144.76521405322512,
+      "area_at_depth_plus10pct": 134.2398652999167
+     },
+     "anisotropic": {
+      "area": 139.97577501055804,
+      "solidity": 0.8579465568902411,
+      "aspect": 1.5660952926025775,
+      "axis_deg": 79.77961045277392,
+      "area_rel_target": 1.0099917876625926,
+      "components": 1,
+      "area_at_depth_minus10pct": 145.21293340897085,
+      "area_at_depth_plus10pct": 134.78928356466216
+     }
+    },
+    "2.0": {
+     "mesa": {
+      "L": 21.5,
+      "short": 16.25,
+      "w": 10.0,
+      "tip_radius": 3.5
+     },
+     "isotropic": {
+      "area": 141.91100393900786,
+      "solidity": 0.8739629588447827,
+      "aspect": 1.5704407576972264,
+      "axis_deg": 79.99361841358004,
+      "area_rel_target": 1.0239553847552607,
+      "components": 1,
+      "area_at_depth_minus10pct": 152.22815742224464,
+      "area_at_depth_plus10pct": 131.84266734794187
+     },
+     "anisotropic": {
+      "area": 142.87318795982333,
+      "solidity": 0.872020494806979,
+      "aspect": 1.5349468778483948,
+      "axis_deg": 79.43655076838913,
+      "area_rel_target": 1.0308980000697356,
+      "components": 1,
+      "area_at_depth_minus10pct": 153.09386788166222,
+      "area_at_depth_plus10pct": 132.8983836150805
+     }
+    },
+    "3.0": {
+     "mesa": {
+      "L": 23.5,
+      "short": 18.25,
+      "w": 12.0,
+      "tip_radius": 4.5
+     },
+     "isotropic": {
+      "area": 144.40190354030557,
+      "solidity": 0.8893037566847625,
+      "aspect": 1.5579520674926055,
+      "axis_deg": 79.9795837216555,
+      "area_rel_target": 1.0419284100234756,
+      "components": 1,
+      "area_at_depth_minus10pct": 159.6764846280014,
+      "area_at_depth_plus10pct": 129.69213802666894
+     },
+     "anisotropic": {
+      "area": 145.87030235623703,
+      "solidity": 0.8869732313754018,
+      "aspect": 1.5033581488725891,
+      "axis_deg": 79.01620150128494,
+      "area_rel_target": 1.052523605834982,
+      "components": 1,
+      "area_at_depth_minus10pct": 160.99801029445536,
+      "area_at_depth_plus10pct": 131.3049419914969
+     }
+    },
+    "5.0": {
+     "mesa": {
+      "L": 27.5,
+      "short": 22.25,
+      "w": 16.0,
+      "tip_radius": 6.5
+     },
+     "isotropic": {
+      "area": 148.8060153619581,
+      "solidity": 0.9164272674180517,
+      "aspect": 1.5408009465701937,
+      "axis_deg": 79.99569424773864,
+      "area_rel_target": 1.0737061713645453,
+      "components": 1,
+      "area_at_depth_minus10pct": 174.01139652345842,
+      "area_at_depth_plus10pct": 125.1678690808626
+     },
+     "anisotropic": {
+      "area": 151.42289742334674,
+      "solidity": 0.9143559332932368,
+      "aspect": 1.4447739756660969,
+      "axis_deg": 77.89838132136187,
+      "area_rel_target": 1.0925882199982087,
+      "components": 1,
+      "area_at_depth_minus10pct": 176.3659520173474,
+      "area_at_depth_plus10pct": 128.04112320642355
+     }
+    },
+    "8.0": {
+     "mesa": {
+      "L": 33.5,
+      "short": 28.25,
+      "w": 22.0,
+      "tip_radius": 9.5
+     },
+     "isotropic": {
+      "area": 153.14415532990023,
+      "solidity": 0.9431440933959524,
+      "aspect": 1.527236362302258,
+      "axis_deg": 80.0030692232558,
+      "area_rel_target": 1.105007914405596,
+      "components": 1,
+      "area_at_depth_minus10pct": 193.6702336384523,
+      "area_at_depth_plus10pct": 116.63945254108063
+     },
+     "anisotropic": {
+      "area": 157.31966895052304,
+      "solidity": 0.9440624331547394,
+      "aspect": 1.368622104043062,
+      "axis_deg": 75.71985154679831,
+      "area_rel_target": 1.1351362310074098,
+      "components": 1,
+      "area_at_depth_minus10pct": 197.42492320678855,
+      "area_at_depth_plus10pct": 121.306796937912
+     }
+    },
+    "10.0": {
+     "mesa": {
+      "L": 37.5,
+      "short": 32.25,
+      "w": 26.0,
+      "tip_radius": 11.5
+     },
+     "isotropic": {
+      "area": 154.73815059250347,
+      "solidity": 0.9529608546263939,
+      "aspect": 1.521843489567089,
+      "axis_deg": 79.97812538004604,
+      "area_rel_target": 1.1165093483121482,
+      "components": 1,
+      "area_at_depth_minus10pct": 205.84603099097075,
+      "area_at_depth_plus10pct": 109.90757587736357
+     },
+     "anisotropic": {
+      "area": 159.68732842508197,
+      "solidity": 0.9551546388863437,
+      "aspect": 1.3241115375545536,
+      "axis_deg": 73.85654888617859,
+      "area_rel_target": 1.1522200201495358,
+      "components": 1,
+      "area_at_depth_minus10pct": 210.28893111425572,
+      "area_at_depth_plus10pct": 115.51385624572498
+     }
+    }
+   }
+  },
+  "M2 (model pick)": {
+   "target": {
+    "L": 18.431,
+    "short": 12.053874,
+    "w": 5.061,
+    "tip_radius": 2.0319915,
+    "theta": 90.97,
+    "area": 121.57113298793297,
+    "solidity": 0.8087181951922671,
+    "aspect": 1.789868391961069,
+    "axis_deg": 90.96316012311001
+   },
+   "by_depth": {
+    "1.0": {
+     "mesa": {
+      "L": 20.431,
+      "short": 14.053874,
+      "w": 7.061,
+      "tip_radius": 3.0319915
+     },
+     "isotropic": {
+      "area": 122.41838755582344,
+      "solidity": 0.8143628454997967,
+      "aspect": 1.7851754173740653,
+      "axis_deg": 90.96548209447388,
+      "area_rel_target": 1.0069692084548933,
+      "components": 1,
+      "area_at_depth_minus10pct": 127.67234496333313,
+      "area_at_depth_plus10pct": 117.22126857112558
+     },
+     "anisotropic": {
+      "area": 123.12048438915707,
+      "solidity": 0.8134676643853108,
+      "aspect": 1.7732370953942431,
+      "axis_deg": 90.99898028978532,
+      "area_rel_target": 1.0127444020890872,
+      "components": 1,
+      "area_at_depth_minus10pct": 128.30436628719525,
+      "area_at_depth_plus10pct": 117.99466023479222
+     }
+    },
+    "2.0": {
+     "mesa": {
+      "L": 22.431,
+      "short": 16.053874,
+      "w": 9.061,
+      "tip_radius": 4.0319915
+     },
+     "isotropic": {
+      "area": 124.74452406285855,
+      "solidity": 0.8298406136736121,
+      "aspect": 1.7683940443656356,
+      "axis_deg": 90.96157666606112,
+      "area_rel_target": 1.0261031627898094,
+      "components": 1,
+      "area_at_depth_minus10pct": 135.00833601444808,
+      "area_at_depth_plus10pct": 114.73061845050131
+     },
+     "anisotropic": {
+      "area": 126.11262432517933,
+      "solidity": 0.8283001365507463,
+      "aspect": 1.7431160962221923,
+      "axis_deg": 91.01205995015546,
+      "area_rel_target": 1.0373566588188097,
+      "components": 1,
+      "area_at_depth_minus10pct": 136.23969958783908,
+      "area_at_depth_plus10pct": 116.23544625428187
+     }
+    },
+    "3.0": {
+     "mesa": {
+      "L": 24.431,
+      "short": 18.053874,
+      "w": 11.061,
+      "tip_radius": 5.0319915
+     },
+     "isotropic": {
+      "area": 127.24403566508913,
+      "solidity": 0.8464679679373751,
+      "aspect": 1.7510405698464737,
+      "axis_deg": 90.97785645455784,
+      "area_rel_target": 1.0466632377088996,
+      "components": 1,
+      "area_at_depth_minus10pct": 142.43182742716408,
+      "area_at_depth_plus10pct": 112.6199724243484
+     },
+     "anisotropic": {
+      "area": 129.33258248412002,
+      "solidity": 0.8444624208945486,
+      "aspect": 1.7091184081968958,
+      "axis_deg": 91.054167199537,
+      "area_rel_target": 1.0638428655341845,
+      "components": 1,
+      "area_at_depth_minus10pct": 144.3116393402904,
+      "area_at_depth_plus10pct": 114.92017476880471
+     }
+    },
+    "5.0": {
+     "mesa": {
+      "L": 28.431,
+      "short": 22.053874,
+      "w": 15.061,
+      "tip_radius": 7.0319915
+     },
+     "isotropic": {
+      "area": 131.7231178864027,
+      "solidity": 0.8762650464151118,
+      "aspect": 1.723819574181658,
+      "axis_deg": 90.97557244891003,
+      "area_rel_target": 1.0835065417995027,
+      "components": 1,
+      "area_at_depth_minus10pct": 156.77893809353762,
+      "area_at_depth_plus10pct": 108.23867438659794
+     },
+     "anisotropic": {
+      "area": 135.3828555059223,
+      "solidity": 0.8744806602500694,
+      "aspect": 1.6427964382529245,
+      "axis_deg": 91.16421572299474,
+      "area_rel_target": 1.113610214682792,
+      "components": 1,
+      "area_at_depth_minus10pct": 160.07070535035524,
+      "area_at_depth_plus10pct": 112.26641333109067
+     }
+    },
+    "8.0": {
+     "mesa": {
+      "L": 34.431,
+      "short": 28.053874,
+      "w": 21.061,
+      "tip_radius": 10.0319915
+     },
+     "isotropic": {
+      "area": 137.03998361833817,
+      "solidity": 0.9116347645507938,
+      "aspect": 1.6992750574164517,
+      "axis_deg": 90.95897541673932,
+      "area_rel_target": 1.1272411488666525,
+      "components": 1,
+      "area_at_depth_minus10pct": 177.2012299353591,
+      "area_at_depth_plus10pct": 100.89561984892865
+     },
+     "anisotropic": {
+      "area": 143.0540335302064,
+      "solidity": 0.9115309908930128,
+      "aspect": 1.5490287501661997,
+      "axis_deg": 91.306541456727,
+      "area_rel_target": 1.1767105398648032,
+      "components": 1,
+      "area_at_depth_minus10pct": 182.6120325748641,
+      "area_at_depth_plus10pct": 107.52564412149677
+     }
+    },
+    "10.0": {
+     "mesa": {
+      "L": 38.431,
+      "short": 32.053874,
+      "w": 25.061,
+      "tip_radius": 12.0319915
+     },
+     "isotropic": {
+      "area": 139.25123057157157,
+      "solidity": 0.9263447647228487,
+      "aspect": 1.6887202616629309,
+      "axis_deg": 90.9645844314266,
+      "area_rel_target": 1.1454300634460115,
+      "components": 1,
+      "area_at_depth_minus10pct": 189.83442625605164,
+      "area_at_depth_plus10pct": 94.94544864181137
+     },
+     "anisotropic": {
+      "area": 146.5779151572649,
+      "solidity": 0.9267334811563518,
+      "aspect": 1.4911559251164959,
+      "axis_deg": 91.41011871370587,
+      "area_rel_target": 1.2056967106806027,
+      "components": 1,
+      "area_at_depth_minus10pct": 196.4300029870885,
+      "area_at_depth_plus10pct": 103.06239254332701
+     }
+    }
+   }
+  },
+  "W85 (thin arm)": {
+   "target": {
+    "L": 19.571,
+    "short": 9.7855,
+    "w": 3.5,
+    "tip_radius": 1.75,
+    "theta": 84.91,
+    "area": 85.2186903349374,
+    "solidity": 0.7074650970642781,
+    "aspect": 2.6929521059977923,
+    "axis_deg": 84.91122336284997
+   },
+   "by_depth": {
+    "1.0": {
+     "mesa": {
+      "L": 21.571,
+      "short": 11.785500000000003,
+      "w": 5.5,
+      "tip_radius": 2.75
+     },
+     "isotropic": {
+      "area": 86.0820104951818,
+      "solidity": 0.7146494180996599,
+      "aspect": 2.6782016835782616,
+      "axis_deg": 84.91009509360946,
+      "area_rel_target": 1.0101306433700314,
+      "components": 1,
+      "area_at_depth_minus10pct": 91.21447922494042,
+      "area_at_depth_plus10pct": 81.01963461156504
+     },
+     "anisotropic": {
+      "area": 87.2420629919198,
+      "solidity": 0.715368345843298,
+      "aspect": 2.6795524962517163,
+      "axis_deg": 84.85486552054653,
+      "area_rel_target": 1.0237432967935773,
+      "components": 1,
+      "area_at_depth_minus10pct": 92.25890037135031,
+      "area_at_depth_plus10pct": 82.29668146217577
+     }
+    },
+    "2.0": {
+     "mesa": {
+      "L": 23.571,
+      "short": 13.7855,
+      "w": 7.5,
+      "tip_radius": 3.75
+     },
+     "isotropic": {
+      "area": 88.34206565575232,
+      "solidity": 0.7334152590559729,
+      "aspect": 2.6324179431023316,
+      "axis_deg": 84.90823556337803,
+      "area_rel_target": 1.0366512945521578,
+      "components": 1,
+      "area_at_depth_minus10pct": 98.35640125045495,
+      "area_at_depth_plus10pct": 78.57959951810571
+     },
+     "anisotropic": {
+      "area": 90.64031548935966,
+      "solidity": 0.7346793642050886,
+      "aspect": 2.623962939285567,
+      "axis_deg": 84.78800257392989,
+      "area_rel_target": 1.0636201416979478,
+      "components": 1,
+      "area_at_depth_minus10pct": 100.42449753240453,
+      "area_at_depth_plus10pct": 81.10996788873604
+     }
+    },
+    "3.0": {
+     "mesa": {
+      "L": 25.571,
+      "short": 15.7855,
+      "w": 9.5,
+      "tip_radius": 4.75
+     },
+     "isotropic": {
+      "area": 90.59068758110541,
+      "solidity": 0.7520837890670852,
+      "aspect": 2.58488170339041,
+      "axis_deg": 84.90858697567514,
+      "area_rel_target": 1.0630377822641288,
+      "components": 1,
+      "area_at_depth_minus10pct": 105.43018010267946,
+      "area_at_depth_plus10pct": 76.31383037351225
+     },
+     "anisotropic": {
+      "area": 94.07761321609703,
+      "solidity": 0.7528471513636016,
+      "aspect": 2.5647938356199296,
+      "axis_deg": 84.69936380763126,
+      "area_rel_target": 1.103955163431181,
+      "components": 1,
+      "area_at_depth_minus10pct": 108.56879506198067,
+      "area_at_depth_plus10pct": 80.15068624960674
+     }
+    },
+    "5.0": {
+     "mesa": {
+      "L": 29.571,
+      "short": 19.7855,
+      "w": 13.5,
+      "tip_radius": 6.75
+     },
+     "isotropic": {
+      "area": 94.64177757872966,
+      "solidity": 0.785716356401505,
+      "aspect": 2.509011758888757,
+      "axis_deg": 84.90632906538418,
+      "area_rel_target": 1.1105753586068552,
+      "components": 1,
+      "area_at_depth_minus10pct": 119.17318831433005,
+      "area_at_depth_plus10pct": 71.67793026495553
+     },
+     "anisotropic": {
+      "area": 100.6254387594563,
+      "solidity": 0.788683283920283,
+      "aspect": 2.4372028479767356,
+      "axis_deg": 84.48023117792569,
+      "area_rel_target": 1.180790720485909,
+      "components": 1,
+      "area_at_depth_minus10pct": 124.55915288394112,
+      "area_at_depth_plus10pct": 78.2681061007483
+     }
+    },
+    "8.0": {
+     "mesa": {
+      "L": 35.571,
+      "short": 25.7855,
+      "w": 19.5,
+      "tip_radius": 9.75
+     },
+     "isotropic": {
+      "area": 99.87316965552972,
+      "solidity": 0.8291476579121329,
+      "aspect": 2.4282127409347347,
+      "axis_deg": 84.91284409783884,
+      "area_rel_target": 1.1719632074019843,
+      "components": 1,
+      "area_at_depth_minus10pct": 139.22225050521672,
+      "area_at_depth_plus10pct": 64.54355036821221
+     },
+     "anisotropic": {
+      "area": 109.66484886286236,
+      "solidity": 0.8345869759006174,
+      "aspect": 2.2558825708631614,
+      "axis_deg": 84.10579789832384,
+      "area_rel_target": 1.2868638139338158,
+      "components": 1,
+      "area_at_depth_minus10pct": 148.0261891240581,
+      "area_at_depth_plus10pct": 75.49156281741779
+     }
+    },
+    "10.0": {
+     "mesa": {
+      "L": 39.571,
+      "short": 29.7855,
+      "w": 23.5,
+      "tip_radius": 11.75
+     },
+     "isotropic": {
+      "area": 103.0156722145066,
+      "solidity": 0.8552367643748634,
+      "aspect": 2.393229354864937,
+      "axis_deg": 84.91535761138474,
+      "area_rel_target": 1.2088389508172586,
+      "components": 1,
+      "area_at_depth_minus10pct": 152.48295098285428,
+      "area_at_depth_plus10pct": 59.83088144768368
+     },
+     "anisotropic": {
+      "area": 115.2904108961923,
+      "solidity": 0.8673578462793371,
+      "aspect": 2.142617320601148,
+      "axis_deg": 83.77561785806556,
+      "area_rel_target": 1.3528770559963215,
+      "components": 1,
+      "area_at_depth_minus10pct": 163.51447738949187,
+      "area_at_depth_plus10pct": 73.8605540343795
+     }
+    }
+   }
+  },
+  "CX0 (symmetric cross)": {
+   "target": {
+    "L": 17.5,
+    "short": 17.5,
+    "w": 6.0,
+    "tip_radius": 1.5,
+    "theta": 0.0,
+    "area": 169.8335462527811,
+    "solidity": 0.7797920794385004,
+    "aspect": 1.000000039871546,
+    "axis_deg": 134.99999936243697
+   },
+   "by_depth": {
+    "1.0": {
+     "mesa": {
+      "L": 19.5,
+      "short": 19.5,
+      "w": 8.0,
+      "tip_radius": 2.5
+     },
+     "isotropic": {
+      "area": 170.98027881294348,
+      "solidity": 0.7850363621167417,
+      "aspect": 1.0000334413619736,
+      "axis_deg": 134.9999999993357,
+      "area_rel_target": 1.0067520968940704,
+      "components": 1,
+      "area_at_depth_minus10pct": 177.3184314536902,
+      "area_at_depth_plus10pct": 164.70219585960723
+     },
+     "anisotropic": {
+      "area": 170.7701473601163,
+      "solidity": 0.7849851218771542,
+      "aspect": 1.0047672266038794,
+      "axis_deg": 179.38292206009234,
+      "area_rel_target": 1.0055148180556812,
+      "components": 1,
+      "area_at_depth_minus10pct": 177.13347619324387,
+      "area_at_depth_plus10pct": 164.47245743349606
+     }
+    },
+    "2.0": {
+     "mesa": {
+      "L": 21.5,
+      "short": 21.5,
+      "w": 10.0,
+      "tip_radius": 3.5
+     },
+     "isotropic": {
+      "area": 173.58010475200228,
+      "solidity": 0.7969764237453792,
+      "aspect": 1.0000355903964822,
+      "axis_deg": 134.9999999998211,
+      "area_rel_target": 1.0220601794043962,
+      "components": 1,
+      "area_at_depth_minus10pct": 185.98702622995035,
+      "area_at_depth_plus10pct": 161.4249270223319
+     },
+     "anisotropic": {
+      "area": 173.10993439655357,
+      "solidity": 0.7964649023147271,
+      "aspect": 1.0106988079127193,
+      "axis_deg": 179.627689359077,
+      "area_rel_target": 1.019291760762599,
+      "components": 1,
+      "area_at_depth_minus10pct": 185.5642837142908,
+      "area_at_depth_plus10pct": 160.9057938808724
+     }
+    },
+    "3.0": {
+     "mesa": {
+      "L": 23.5,
+      "short": 23.5,
+      "w": 12.0,
+      "tip_radius": 4.5
+     },
+     "isotropic": {
+      "area": 177.894739541372,
+      "solidity": 0.8167877140341904,
+      "aspect": 1.0000376164190603,
+      "axis_deg": 135.0,
+      "area_rel_target": 1.0474652591696612,
+      "components": 1,
+      "area_at_depth_minus10pct": 196.07466565365735,
+      "area_at_depth_plus10pct": 160.27457210299173
+     },
+     "anisotropic": {
+      "area": 177.11105053990332,
+      "solidity": 0.8162982564260706,
+      "aspect": 1.0179206994694912,
+      "axis_deg": 0.07106306758223013,
+      "area_rel_target": 1.0428508056723396,
+      "components": 1,
+      "area_at_depth_minus10pct": 195.36974586906211,
+      "area_at_depth_plus10pct": 159.4139505018367
+     }
+    },
+    "5.0": {
+     "mesa": {
+      "L": 27.5,
+      "short": 27.5,
+      "w": 16.0,
+      "tip_radius": 6.5
+     },
+     "isotropic": {
+      "area": 190.19608434214632,
+      "solidity": 0.8732682766412464,
+      "aspect": 1.0000030367450847,
+      "axis_deg": 135.00000000206757,
+      "area_rel_target": 1.1198970317622499,
+      "components": 1,
+      "area_at_depth_minus10pct": 219.25424260521135,
+      "area_at_depth_plus10pct": 162.7044127405028
+     },
+     "anisotropic": {
+      "area": 188.6202792113639,
+      "solidity": 0.8724945400322305,
+      "aspect": 1.0366891858033012,
+      "axis_deg": 0.03399352332581884,
+      "area_rel_target": 1.1106185048425035,
+      "components": 1,
+      "area_at_depth_minus10pct": 217.83770516575447,
+      "area_at_depth_plus10pct": 160.9786805840238
+     }
+    },
+    "8.0": {
+     "mesa": {
+      "L": 33.5,
+      "short": 33.5,
+      "w": 22.0,
+      "tip_radius": 9.5
+     },
+     "isotropic": {
+      "area": 199.65368971355872,
+      "solidity": 0.9166924517435572,
+      "aspect": 1.0000026959992145,
+      "axis_deg": 134.9999999965821,
+      "area_rel_target": 1.1755845303753663,
+      "components": 1,
+      "area_at_depth_minus10pct": 245.68017827703218,
+      "area_at_depth_plus10pct": 157.64153267927787
+     },
+     "anisotropic": {
+      "area": 196.50203627702692,
+      "solidity": 0.9156086599875302,
+      "aspect": 1.0719114387673963,
+      "axis_deg": 179.96670158182815,
+      "area_rel_target": 1.1570272223165634,
+      "components": 1,
+      "area_at_depth_minus10pct": 242.8480178378462,
+      "area_at_depth_plus10pct": 154.20509200494058
+     }
+    },
+    "10.0": {
+     "mesa": {
+      "L": 37.5,
+      "short": 37.5,
+      "w": 26.0,
+      "tip_radius": 11.5
+     },
+     "isotropic": {
+      "area": 202.91015473974386,
+      "solidity": 0.9316443468262096,
+      "aspect": 1.0000025888020676,
+      "axis_deg": 135.00000000470493,
+      "area_rel_target": 1.1947589814660724,
+      "components": 1,
+      "area_at_depth_minus10pct": 260.706889315765,
+      "area_at_depth_plus10pct": 151.3885338779413
+     },
+     "anisotropic": {
+      "area": 198.46519836687543,
+      "solidity": 0.9301093052724246,
+      "aspect": 1.0940995307716597,
+      "axis_deg": 0.0,
+      "area_rel_target": 1.1685865528090595,
+      "components": 1,
+      "area_at_depth_minus10pct": 256.7200434602586,
+      "area_at_depth_plus10pct": 146.59721271135828
+     }
+    }
+   }
+  }
+ }
+}

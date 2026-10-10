@@ -1,0 +1,257 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Yuan et~al.(2025{\natexlab{a}})Yuan, Zhang, Lin, and
+  Danner]{yuan2025clea}
+Zifeng Yuan, Dewen Zhang, Hong-Lin Lin, and Aaron Danner.
+\newblock Engineering polarization switching in {VCSELs} with custom aperture
+  shapes.
+\newblock In \emph{CLEO: Applications and Technology 2025}, 2025{\natexlab{a}}.
+\newblock paper JPS200\_47; arXiv:2608.16597. STATUS: READ-FULL (arXiv HTML
+  text); quoted phrases re-extracted in a second pass.
+
+\bibitem[Yuan et~al.(2025{\natexlab{b}})Yuan, Zhang, Shi, Liu, and
+  Danner]{yuan2025apl126}
+Zifeng Yuan, Dewen Zhang, Lei Shi, Yutong Liu, and Aaron Danner.
+\newblock Enhanced polarization locking in {VCSELs}.
+\newblock \emph{Applied Physics Letters}, 126\penalty0 (15):\penalty0 151101,
+  2025{\natexlab{b}}.
+\newblock \doi{10.1063/5.0259836}.
+\newblock arXiv:2604.01857 (the quoted phrases match version 2; version 1 was
+  read in the first pass). STATUS: READ-FULL for the main text (arXiv HTML);
+  the theory table of spin-flip constants could not be re-read in the final
+  pass.
+
+\bibitem[Yuan et~al.(2025{\natexlab{c}})Yuan, Shan, Chen, Lin, and
+  Danner]{yuan2025mesa}
+Zifeng Yuan, Wenkai Shan, Tingting Chen, Beibei Lin, and Aaron Danner.
+\newblock Mesa orientation engineering for polarization locking in {VCSELs}.
+\newblock In \emph{2025 IEEE Photonics Conference (IPC)}, pages 1--2,
+  Singapore, 2025{\natexlab{c}}.
+\newblock arXiv:2608.24075. Venue and pages as reported by an independent
+  reference check; the venue is not printed on the arXiv page that was read
+  here. STATUS: READ-FULL (arXiv HTML text).
+
+\bibitem[Mohseni et~al.(2022)Mohseni, McMahon, and Byrnes]{mohseni2022}
+Naeimeh Mohseni, Peter~L. McMahon, and Tim Byrnes.
+\newblock Ising machines as hardware solvers of combinatorial optimization
+  problems.
+\newblock \emph{Nature Reviews Physics}, 4:\penalty0 363, 2022.
+\newblock arXiv:2204.00276. STATUS: LISTING.
+
+\bibitem[Chen et~al.(2026)Chen, Yuan, Lin, Qi, Chu, Danner, and
+  Chen]{chen2026meta}
+Wenjie Chen, Zifeng Yuan, Hong-Lin Lin, Luo Qi, Jiaru Chu, Aaron Danner, and
+  Yuhang Chen.
+\newblock Metasurface-integrated {VCSEL} designed for polarization control in
+  optical {Ising} machines.
+\newblock arXiv:2609.21331v1 [physics.optics], 18 Sep 2026, 2026.
+\newblock STATUS: READ-FULL (PDF supplied by the user).
+
+\bibitem[Yuan et~al.(2025{\natexlab{d}})]{yuan2025apl127}
+Zifeng Yuan et~al.
+\newblock Tailored polarization-switchable {VCSEL} arrays for photonic {Ising}
+  computing.
+\newblock \emph{Applied Physics Letters}, 127\penalty0 (22):\penalty0 221102,
+  2025{\natexlab{d}}.
+\newblock \doi{10.1063/5.0291349}.
+\newblock STATUS: LISTING (AIP page title/volume seen in a search index; the
+  page itself returned 403; author list beyond the first author not
+  re-confirmed). Full text NOT read.
+
+\bibitem[Choquette et~al.(1995)Choquette, Schneider, Lear, and
+  Leibenguth]{choquette1995}
+Kent~D. Choquette, Richard~P. Schneider, Jr., Kevin~L. Lear, and Ronald~E.
+  Leibenguth.
+\newblock Gain-dependent polarization properties of vertical-cavity lasers.
+\newblock \emph{IEEE Journal of Selected Topics in Quantum Electronics},
+  1\penalty0 (2):\penalty0 661--666, 1995.
+\newblock STATUS: READ-FULL (repository copy). Reports polarization splittings
+  from below 1.3 GHz up to 9.9 GHz in individual devices, switching as the gain
+  sweeps through the polarization resonances, and a strong influence of local
+  strain.
+
+\bibitem[Willemsen et~al.(2000)Willemsen, van Exter, and
+  Woerdman]{willemsen2000}
+M.~B. Willemsen, M.~P. van Exter, and J.~P. Woerdman.
+\newblock Anatomy of a polarization switch of a vertical-cavity semiconductor
+  laser.
+\newblock \emph{Physical Review Letters}, 84:\penalty0 4337--4340, 2000.
+\newblock STATUS: LISTING (APS abstract page and PubMed entry found by search);
+  not opened.
+
+\bibitem[Yuan et~al.(2025{\natexlab{e}})Yuan, Zhang, Gao, Qi, Fu, and
+  Danner]{yuan2025jlt}
+Zifeng Yuan, Dewen Zhang, Yuan Gao, Luo Qi, Wujie Fu, and Aaron Danner.
+\newblock Large-scale fabrication and analysis of polarization behavior in
+  {VCSELs} with tailored apertures.
+\newblock \emph{Journal of Lightwave Technology}, 43\penalty0 (14):\penalty0
+  6819--6827, 2025{\natexlab{e}}.
+\newblock STATUS: READ-ABSTRACT (publisher page). The device statistics
+  ("hundreds of VCSELs") are in the full text, which was NOT read: this is the
+  most valuable missing source.
+
+\bibitem[Belonovskii et~al.(2025)]{belonovskii2025}
+Aleksei~V. Belonovskii et~al.
+\newblock Predicting {VCSEL} emission properties using transformer neural
+  networks.
+\newblock \emph{Laser \& Photonics Reviews}, 2025.
+\newblock \doi{10.1002/lpor.202401636}.
+\newblock arXiv:2407.06039. STATUS: LISTING (arXiv and Wiley titles; Wiley page
+  returned 403). A neural-network surrogate for VCSEL emission properties;
+  closest ML-for-VCSEL paper found, not about aperture shape or polarization
+  switching.
+
+\bibitem[Molesky et~al.(2018)Molesky, Lin, Piggott, Jin, Vu{\v{c}}kovi{\'c},
+  and Rodriguez]{molesky2018}
+Sean Molesky, Zin Lin, Alexander~Y. Piggott, Weiliang Jin, Jelena
+  Vu{\v{c}}kovi{\'c}, and Alejandro~W. Rodriguez.
+\newblock Inverse design in nanophotonics.
+\newblock \emph{Nature Photonics}, 12:\penalty0 659, 2018.
+\newblock STATUS: LISTING (publisher page).
+
+\bibitem[San~Miguel et~al.(1995)San~Miguel, Feng, and Moloney]{sanmiguel1995}
+Maxi San~Miguel, Qinghong Feng, and Jerome~V. Moloney.
+\newblock Light-polarization dynamics in surface-emitting semiconductor lasers.
+\newblock \emph{Physical Review A}, 52:\penalty0 1728, 1995.
+\newblock STATUS: LISTING (APS and IFISC pages); not opened.
+
+\bibitem[Mart{\'\i}n-Regalado et~al.(1997)Mart{\'\i}n-Regalado, Prati,
+  San~Miguel, and Abraham]{martinregalado1997}
+J.~Mart{\'\i}n-Regalado, F.~Prati, M.~San~Miguel, and N.~B. Abraham.
+\newblock Polarization properties of vertical-cavity surface-emitting lasers.
+\newblock \emph{IEEE Journal of Quantum Electronics}, 33\penalty0 (5):\penalty0
+  765--783, 1997.
+\newblock \doi{10.1109/3.572151}.
+\newblock STATUS: LISTING (title on an index page; volume/page/DOI from an
+  earlier record); not opened.
+
+\bibitem[Beaumont et~al.(2002)Beaumont, Zhang, and Balding]{beaumont2002}
+Mark~A. Beaumont, Wenyang Zhang, and David~J. Balding.
+\newblock Approximate {Bayesian} computation in population genetics.
+\newblock \emph{Genetics}, 162\penalty0 (4):\penalty0 2025--2035, 2002.
+\newblock STATUS: LISTING (publisher page).
+
+\bibitem[Jones et~al.(1998)Jones, Schonlau, and Welch]{jones1998}
+Donald~R. Jones, Matthias Schonlau, and William~J. Welch.
+\newblock Efficient global optimization of expensive black-box functions.
+\newblock \emph{Journal of Global Optimization}, 13\penalty0 (4):\penalty0
+  455--492, 1998.
+\newblock \doi{10.1023/A:1008306431147}.
+\newblock STATUS: LISTING (publisher page and several indexes).
+
+\bibitem[Shahriari et~al.(2016)Shahriari, Swersky, Wang, Adams, and
+  de~Freitas]{shahriari2016}
+Bobak Shahriari, Kevin Swersky, Ziyu Wang, Ryan~P. Adams, and Nando de~Freitas.
+\newblock Taking the human out of the loop: A review of bayesian optimization.
+\newblock \emph{Proceedings of the IEEE}, 104\penalty0 (1):\penalty0 148--175,
+  2016.
+\newblock STATUS: LISTING (IEEE Xplore and repository pages).
+
+\bibitem[Srinivas et~al.(2010)Srinivas, Krause, Kakade, and
+  Seeger]{srinivas2010}
+Niranjan Srinivas, Andreas Krause, Sham~M. Kakade, and Matthias Seeger.
+\newblock Gaussian process optimization in the bandit setting: No regret and
+  experimental design.
+\newblock In \emph{Proceedings of the 27th International Conference on Machine
+  Learning (ICML)}, 2010.
+\newblock arXiv:0912.3995. STATUS: LISTING (arXiv and ICML pages).
+
+\bibitem[Snoek et~al.(2012)Snoek, Larochelle, and Adams]{snoek2012}
+Jasper Snoek, Hugo Larochelle, and Ryan~P. Adams.
+\newblock Practical bayesian optimization of machine learning algorithms.
+\newblock In \emph{Advances in Neural Information Processing Systems 25}, 2012.
+\newblock arXiv:1206.2944. STATUS: LISTING.
+
+\bibitem[Rasmussen and Williams(2006)]{rasmussen2006}
+Carl~Edward Rasmussen and Christopher K.~I. Williams.
+\newblock \emph{Gaussian Processes for Machine Learning}.
+\newblock MIT Press, 2006.
+\newblock STATUS: LISTING (MIT Press and university pages). Matern kernels:
+  Sec. 4.2.
+
+\bibitem[Pedregosa et~al.(2011)]{pedregosa2011}
+Fabian Pedregosa et~al.
+\newblock Scikit-learn: Machine learning in {Python}.
+\newblock \emph{Journal of Machine Learning Research}, 12:\penalty0 2825--2830,
+  2011.
+\newblock STATUS: LISTING (JMLR page).
+
+\bibitem[Storn and Price(1997)]{storn1997}
+Rainer Storn and Kenneth Price.
+\newblock Differential evolution -- a simple and efficient heuristic for global
+  optimization over continuous spaces.
+\newblock \emph{Journal of Global Optimization}, 11\penalty0 (4):\penalty0
+  341--359, 1997.
+\newblock STATUS: LISTING (publisher page and indexes).
+
+\bibitem[Nemhauser et~al.(1978)Nemhauser, Wolsey, and Fisher]{nemhauser1978}
+G.~L. Nemhauser, L.~A. Wolsey, and M.~L. Fisher.
+\newblock An analysis of approximations for maximizing submodular set functions
+  {I}.
+\newblock \emph{Mathematical Programming}, 14:\penalty0 265--294, 1978.
+\newblock STATUS: LISTING (publisher page). Basis of the greedy portfolio
+  (monotone submodular objective, (1-1/e) guarantee).
+
+\bibitem[Desautels et~al.(2014)Desautels, Krause, and Burdick]{desautels2014}
+Thomas Desautels, Andreas Krause, and Joel~W. Burdick.
+\newblock Parallelizing exploration--exploitation tradeoffs in {G}aussian
+  process bandit optimization.
+\newblock \emph{Journal of Machine Learning Research}, 15:\penalty0 4053--4103,
+  2014.
+\newblock STATUS: LISTING (JMLR page, ACM, Caltech repository); not read. Cited
+  only as the established batch-BO method that the portfolio design of this
+  work is NOT compared with.
+
+\bibitem[Gretton et~al.(2012)Gretton, Borgwardt, Rasch, Sch{\"o}lkopf, and
+  Smola]{gretton2012}
+Arthur Gretton, Karsten~M. Borgwardt, Malte~J. Rasch, Bernhard Sch{\"o}lkopf,
+  and Alexander Smola.
+\newblock A kernel two-sample test.
+\newblock \emph{Journal of Machine Learning Research}, 13:\penalty0 723--773,
+  2012.
+\newblock STATUS: LISTING (JMLR, ACM and university pages; search index). Not
+  re-read; cited only for the maximum mean discrepancy as a distance between
+  two samples.
+
+\bibitem[Bernton et~al.(2019)Bernton, Jacob, Gerber, and Robert]{bernton2019}
+Espen Bernton, Pierre~E. Jacob, Mathieu Gerber, and Christian~P. Robert.
+\newblock Approximate {B}ayesian computation with the {W}asserstein distance.
+\newblock \emph{Journal of the Royal Statistical Society: Series B},
+  81\penalty0 (2):\penalty0 235--269, 2019.
+\newblock arXiv:1905.03747. STATUS: LISTING (arXiv, Oxford Academic and Wiley
+  pages); not read.
+
+\bibitem[Ch{\'e}rief-Abdellatif and Alquier(2020)]{cheriefabdellatif2020}
+Badr-Eddine Ch{\'e}rief-Abdellatif and Pierre Alquier.
+\newblock {MMD-Bayes}: Robust {B}ayesian estimation via maximum mean
+  discrepancy.
+\newblock In \emph{Proceedings of The 2nd Symposium on Advances in Approximate
+  Bayesian Inference, PMLR 118}, 2020.
+\newblock arXiv:1909.13339. STATUS: LISTING (PMLR and arXiv pages, author
+  page); not read.
+
+\bibitem[Del~Moral et~al.(2012)Del~Moral, Doucet, and Jasra]{delmoral2012}
+Pierre Del~Moral, Arnaud Doucet, and Ajay Jasra.
+\newblock An adaptive sequential {M}onte {C}arlo method for approximate
+  {B}ayesian computation.
+\newblock \emph{Statistics and Computing}, 22:\penalty0 1009--1020, 2012.
+\newblock STATUS: LISTING (Springer page and author copies found by search; not
+  read). Cited only as the sequential alternative to the rejection sampler used
+  here.
+
+\bibitem[Ben-David et~al.(2010)Ben-David, Blitzer, Crammer, Kulesza, Pereira,
+  and Vaughan]{bendavid2010}
+Shai Ben-David, John Blitzer, Koby Crammer, Alex Kulesza, Fernando Pereira, and
+  Jennifer~Wortman Vaughan.
+\newblock A theory of learning from different domains.
+\newblock \emph{Machine Learning}, 79:\penalty0 151--175, 2010.
+\newblock STATUS: LISTING (Springer/ACM pages, author copy, search index); not
+  read. Cited only for the notion of learning under a change of domain (here:
+  simulator to fabricated wafer).
+
+\end{thebibliography}

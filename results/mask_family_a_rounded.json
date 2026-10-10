@@ -1,0 +1,121 @@
+{
+ "note": "MODEL PREDICTIONS; family A recomputed with corner fraction rho (arm tips rounded), family B unchanged",
+ "rho_family_A": 1.0,
+ "n_worlds": 181,
+ "sharp_family_A": {
+  "near 0 deg (0, 30, 150; both families)": {
+   "n_devices": 12,
+   "mean": 0.512707182320442,
+   "q05": 0.0,
+   "q50": 0.0,
+   "q95": 4.0
+  },
+  "45 and 135 deg (both families)": {
+   "n_devices": 8,
+   "mean": 1.2748618784530388,
+   "q05": 0.0,
+   "q50": 0.0,
+   "q95": 5.0
+  },
+  "60, 90, 120 deg (both families)": {
+   "n_devices": 12,
+   "mean": 5.5143646408839775,
+   "q05": 1.0,
+   "q50": 5.0,
+   "q95": 11.0
+  }
+ },
+ "rounded_family_A": {
+  "near 0 deg (0, 30, 150; both families)": {
+   "n_devices": 12,
+   "mean": 0.4350828729281768,
+   "q05": 0.0,
+   "q50": 0.0,
+   "q95": 3.0
+  },
+  "45 and 135 deg (both families)": {
+   "n_devices": 8,
+   "mean": 1.2008287292817679,
+   "q05": 0.0,
+   "q50": 0.0,
+   "q95": 6.0
+  },
+  "60, 90, 120 deg (both families)": {
+   "n_devices": 12,
+   "mean": 5.0232044198895025,
+   "q05": 0.0,
+   "q50": 5.0,
+   "q95": 11.0
+  }
+ },
+ "per_design": {
+  "sharp": {
+   "A0": {
+    "mean_yield": 0.0,
+    "mean_p_switch": 0.001112645794966237
+   },
+   "A30": {
+    "mean_yield": 0.02889042357274401,
+    "mean_p_switch": 0.07550644567219153
+   },
+   "A45": {
+    "mean_yield": 0.08663290362185391,
+    "mean_p_switch": 0.17380294659300183
+   },
+   "A60": {
+    "mean_yield": 0.32136279926335176,
+    "mean_p_switch": 0.5764656230816452
+   },
+   "A90": {
+    "mean_yield": 0.43143799877225286,
+    "mean_p_switch": 0.5820288520564764
+   },
+   "A120": {
+    "mean_yield": 0.3192142418661756,
+    "mean_p_switch": 0.566451810926949
+   },
+   "A135": {
+    "mean_yield": 0.08824432166973604,
+    "mean_p_switch": 0.17940454266421116
+   },
+   "A150": {
+    "mean_yield": 0.027624309392265192,
+    "mean_p_switch": 0.07846071209330878
+   }
+  },
+  "rounded": {
+   "A0": {
+    "mean_yield": 3.83670963781461e-05,
+    "mean_p_switch": 0.0003453038674033149
+   },
+   "A30": {
+    "mean_yield": 0.02294352363413137,
+    "mean_p_switch": 0.059085328422345
+   },
+   "A45": {
+    "mean_yield": 0.07051872314303254,
+    "mean_p_switch": 0.1576120319214242
+   },
+   "A60": {
+    "mean_yield": 0.2731353591160221,
+    "mean_p_switch": 0.5007289748311848
+   },
+   "A90": {
+    "mean_yield": 0.36352823818293434,
+    "mean_p_switch": 0.485535604665439
+   },
+   "A120": {
+    "mean_yield": 0.27140883977900554,
+    "mean_p_switch": 0.4876074278698587
+   },
+   "A135": {
+    "mean_yield": 0.07316605279312463,
+    "mean_p_switch": 0.1568063228974831
+   },
+   "A150": {
+    "mean_yield": 0.02409453652547575,
+    "mean_p_switch": 0.059315531000613875
+   }
+  }
+ }
+}

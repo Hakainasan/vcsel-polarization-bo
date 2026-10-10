@@ -1,0 +1,33 @@
+{
+ "note": "MODEL CHECK: share of the accepted worlds that still pass every enforced anchor on a fresh device population of the same size",
+ "n_worlds": 181,
+ "n_dev": 24,
+ "per_seed": {
+  "1001": {
+   "n_pass": 150,
+   "share": 0.8287292817679558,
+   "first_failure": {
+    "A4_rotated_cruciforms_switch": 29,
+    "A5_y_elongated_switches_y_to_x": 2
+   }
+  },
+  "1002": {
+   "n_pass": 156,
+   "share": 0.861878453038674,
+   "first_failure": {
+    "A4_rotated_cruciforms_switch": 22,
+    "A3_rotation_by_90_flips_initial_polarization": 2,
+    "A5_y_elongated_switches_y_to_x": 1
+   }
+  },
+  "1003": {
+   "n_pass": 167,
+   "share": 0.9226519337016574,
+   "first_failure": {
+    "A4_rotated_cruciforms_switch": 14
+   }
+  }
+ },
+ "share_min": 0.8287292817679558,
+ "share_max": 0.9226519337016574
+}

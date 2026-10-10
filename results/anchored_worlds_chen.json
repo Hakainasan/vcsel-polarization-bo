@@ -1,0 +1,30 @@
+{
+ "accepted": [],
+ "n_draws": 4000,
+ "n_accepted": 0,
+ "acceptance": 0.0,
+ "first_failure": {
+  "A3_rotation_by_90_flips_initial_polarization": 2132,
+  "A2_long_arm_along_native_axis_strengthens": 565,
+  "A1_circle_square_native_x": 561,
+  "A5_y_elongated_switches_y_to_x": 742
+ },
+ "seed": 4,
+ "thresholds": {
+  "most": 0.6,
+  "seldom": 0.3,
+  "part": 0.1,
+  "more": 0.05
+ },
+ "sfm_constants": {
+  "kappa": 125.0,
+  "alpha": 3.0,
+  "gamma": 0.67,
+  "gamma_s": 1000.0
+ },
+ "seconds": 191.4068431854248,
+ "prior_set": "default",
+ "threshold_set": "primary",
+ "sfm_set": "chen",
+ "posterior": {}
+}

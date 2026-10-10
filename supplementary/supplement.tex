@@ -1,0 +1,130 @@
+\documentclass[10pt]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{amsmath,booktabs,graphicx,hyperref,array,float,caption}
+\usepackage[numbers,sort&compress]{natbib}
+\input{tables.tex}
+\title{Supplement: Bayesian optimisation of oxide-aperture geometry\\for polarization-switching VCSELs (photonic Ising machine nodes)\\[2pt]\large a literature-anchored simulation study}
+\author{Polina Morozova}
+\date{Version of \today}
+\begin{document}\maketitle
+
+\begin{center}\fbox{\parbox{0.94\textwidth}{\textbf{Status of every number in this document.} They are \emph{model predictions}. The model's constants
+(native dichroism and birefringence, the coefficients that turn aperture shape into anisotropy, the oxidation depth and anisotropy) are
+\emph{not measured}. They are constrained only by the qualitative outcomes that fabricated devices show in the published experiments
+\cite{yuan2025clea,yuan2025apl126,yuan2025mesa}: I keep only the sets of constants that reproduce all of them (Sec.~\ref{sec:anchor}).
+No measurement of the author's own devices is used and nothing here is validated against a device of this project.
+The published outcomes \emph{constrain} the model; because they are used to select its constants, they cannot also \emph{validate} it.
+What the study offers is (i) a design pipeline, (ii) predictions that the next fabrication batch can test (Sec.~\ref{sec:falsify}),
+and (iii) a calibration protocol.}}\end{center}
+
+\section{Question}
+Photonic Ising machines can use the two orthogonal linear polarization states of a VCSEL as the two values of a spin \cite{mohseni2022,chen2026meta,yuan2025apl127}.
+Real VCSELs carry a built-in anisotropy that pins the light to one polarization (current-driven polarization switching itself has been studied for decades \cite{choquette1995,willemsen2000}), which \emph{``impedes the system from working as desired''} \cite{chen2026meta};
+tailored oxide apertures can compensate it and produce devices with \emph{``controllable yet easily switchable''} polarization \cite{yuan2025jlt}.
+The question asked here is the one a mask designer faces: \textbf{which oxide-aperture geometry gives the best polarization switching for an Ising node, and how should the next fabrication batch be chosen when the constants of the wafer are not yet known?}
+
+\subsection*{What the fabricated-device papers already answer}
+The seven aperture designs of \cite{yuan2025apl126} are a square, a 1:0.7 cruciform at $0^\circ,30^\circ,60^\circ,90^\circ$ and a 1:0.6 cruciform at $0^\circ,90^\circ$.
+The injection-locking numbers in the text I read concern two of them: the \textbf{1:0.7 cruciform rotated by $60^\circ$} (Fig.~2(d): 248\,$\mu$W at 10\,mA and 3.6\,$\mu$W at a bias just above threshold)
+and the non-switchable square (Fig.~2(a): 371\,$\mu$W at 10\,mA). I found no ranking of all seven designs by injection power, so the paper does not show that the $60^\circ$ device is the best of them.
+It groups the $30^\circ$, $60^\circ$ and $90^\circ$ cruciforms as switching devices with better injection-locking performance, and it does not state (in the text I could read) how many devices were measured per design,
+so it does not establish that $60^\circ$ is better than $30^\circ$ or $90^\circ$.
+The full-text statistics of \cite{yuan2025jlt} (``hundreds of VCSELs'') and the Ising paper \cite{yuan2025apl127} were \emph{not} available to me (abstract / listing only):
+they are the most valuable missing sources and would turn the qualitative anchors below into quantitative ones. Appendix~\ref{tab:refs} lists what was actually read.
+
+\subsection*{What is added here, and what is not claimed}
+Not claimed: any new physics, any validated prediction, or novelty beyond the combination below. The closest paper, \cite{yuan2025jlt}, I could read only as an abstract (a method of tailoring apertures; trends across hundreds of devices);
+I cannot say whether its full text contains a calibrated model of aperture shape and switching, so I make no claim that none exists.
+A search for Bayesian-optimisation or portfolio design of aperture \emph{shapes} for polarization switching returned the experimental papers above and, for machine learning on VCSELs, a neural-network surrogate for emission properties \cite{belonovskii2025} and general reviews of
+inverse design \cite{molesky2018}; none of them treats this problem. That is absence of evidence in a limited search, not proof of novelty.
+Added: (1) a spin-flip-model (SFM) simulator \cite{sanmiguel1995,martinregalado1997} that turns an exact mask geometry into a device-level switching \emph{yield};
+(2) a literature-anchored prior over the unknown constants (approximate Bayesian computation \cite{beaumont2002} with qualitative summaries);
+(3) a benchmark of Bayesian optimisation \cite{jones1998,shahriari2016,srinivas2010,snoek2012} (Gaussian-process surrogate \cite{rasmussen2006}, scikit-learn implementation \cite{pedregosa2011}) against random search, Sobol points and differential evolution \cite{storn1997};
+(4) a submodular portfolio design of a fabrication batch \cite{nemhauser1978} and a calibration protocol for the measured batch.
+
+\section{Model}\label{sec:model}
+\paragraph{Mask and aperture geometry.} A cruciform mesa with long-arm length $L$, arm ratio (short/long), arm width $w$, corner radius $\rho w/2$ and rotation $\theta$ of the long arm from the native axis $x$
+(the wafer flat, as in \cite{yuan2025mesa}). Lateral oxidation removes a depth $d$ from the mesa edge at rates that differ along the two crystal axes (ratio $\eta$): the aperture is the mesa eroded by an ellipse
+(Minkowski erosion; it rounds concave corners and pinches off narrow arms). Placeholders: $d=1.0\,\mu$m, $\eta=1.15$. The boundary is generated analytically and the aperture edge is the zero contour of a smooth erosion field, so every descriptor is
+continuous in the design parameters.
+\paragraph{Second-rank descriptors.} For a boundary with element normals at angle $\phi$ the shape vector is
+\begin{equation*}\mathbf s=\oint\omega\,(\cos2\phi,\sin2\phi)\,dl\Big/\oint\omega\,dl.\end{equation*}
+Two weights are used: the intensity of a scalar effective-index fundamental mode
+(``mode channel''; the solver reproduces the analytic LP$_{01}$ eigenvalue to 0.11\,\%) and a long-range kernel $1/(r^2+1)$ (``stress channel''). A C$_4$-symmetric aperture has $\mathbf s=0$ exactly.
+\paragraph{Anisotropy.} Dichroism and birefringence vectors $\mathbf d=\mathbf d_{nat}+k_d\,\mathbf s_{mode}$, $\mathbf b=\mathbf b_{nat}+k_b\,\mathbf s_{stress}$ enter the SFM matrix $M=(d_1+ib_1)\sigma_z+(d_2+ib_2)\sigma_x$.
+Axis convention (as in the experiments): $x$ is the natively favoured axis, $\mathbf d_{nat}=-d_0(\cos2\psi,\sin2\psi)$ with $d_0>0$; $k_d<0$ means that elongation favours the long axis.
+The unknown ``world'' is $(d_0,b_0,k_d,k_b)$ including the \emph{signs} of $b_0,k_d,k_b$. Device-to-device scatter (native $d,b$, axis misorientation $3^\circ$, oxidation depth) is integrated with common random numbers.
+\begin{table}[H]\centering\small\begin{tabular}{p{0.44\textwidth}p{0.48\textwidth}}\toprule
+\multicolumn{2}{l}{\textbf{Grounded in the sources read}}\\\midrule
+Polarization is set by dichroism and birefringence between two linear modes & \cite{sanmiguel1995,martinregalado1997}\\
+Tailored oxide apertures compensate native gain anisotropy; the initial polarization follows the elongated arm; a long arm along the native axis strengthens the anisotropy, along the other axis it mitigates it & \cite{yuan2025jlt,yuan2025mesa,yuan2025apl126}\\
+Switching as the gain sweeps through the polarization resonances; splitting strongly influenced by local strain; splittings from below 1.3\,GHz to 9.9\,GHz & \cite{choquette1995} (used for the prior range $\gamma_p=\pi\,\Delta\nu\approx4$--$31$\,ns$^{-1}$)\\
+Lower net anisotropy makes injection flipping about 28 times easier and doubles Ising accuracy in simulation & \cite{chen2026meta}\\\midrule
+\multicolumn{2}{l}{\textbf{Assumptions of this work (not established by any source read)}}\\\midrule
+Aperture-induced anisotropy is linear in a second-rank boundary tensor; the birefringence channel is an oxide-stress effect with a $1/(r^2+1)$ kernel & assumption\\
+Oxidation as erosion by an ellipse with placeholder $d,\eta$; scalar mode used only as a weight; single-mode SFM & assumption\\
+Constants $d_0,b_0,k_d,k_b$ and their signs; SFM constants $\kappa=300,\alpha=3,\gamma=1,\gamma_s=50$\,ns$^{-1}$ (typical magnitudes; a second set, \cite{chen2026meta}: 125, 3, 0.67, 1000, was tried as a robustness check and accepts no world, Sec.~\ref{sec:sens}) & constrained only by the anchors of Sec.~\ref{sec:anchor}\\\bottomrule\end{tabular}
+\caption{Which parts of the model rest on sources and which are assumptions.}\end{table}
+\paragraph{Yield objective.} A device passes if, sweeping $\mu=I/I_{th}$ over $[1.10,2.10]$, both branches keep a stable state, exactly one switch occurs at $\mu_{sw}\in[1.25,1.95]$, and the two states are separated by $\ge60^\circ$ in azimuth with ellipticity $\le0.45$.
+The hard yield (fraction of devices passing) is reported; the optimiser sees a smoothed version. A device that merely flips polarization at least once in the sweep is said to \emph{switch}; only one that meets the whole specification \emph{passes}, which is rarer (Sec.~\ref{sec:falsify}). The window is a specification, not a physical constant: Ising nodes benefit from switching at low bias \cite{yuan2025apl126}, so a low-bias window is included in the robustness checks.
+\paragraph{SFM solver.} Fixed points (gauge-fixed Newton, analytic Jacobian, global phase removed) and linear stability replace the transient integration of the first version of this project. Against a circular-basis reference right-hand side the residual is $4.5\times10^{-13}$.
+In a sweep over $\gamma_a\in\{1,2,3\}$\,ns$^{-1}$, $\mu\in[1.1,2.2]$, $\gamma_p=20$\,ns$^{-1}$, 33 of 36 points agree with time-domain integration; the three disagreements are at $\mu=2.2$, outside the operating range
+(\texttt{results/sfm\_validation.csv}). Results are claimed only for $I/I_{th}\le2.1$. The sign convention of $\gamma_a$ (the $x$ mode loses when $\gamma_a>0$) is the one of Eqs.~S1--S2 of \cite{chen2026meta}.
+
+\section{Anchoring the model to the fabricated devices}\label{sec:anchor}
+The papers report outcomes per design, not numbers. Each outcome is turned into a yes/no test on a simulated device population (24 devices $\times$ 3 oxidation-depth nodes) in a candidate world;
+worlds are drawn from a broad prior (log-uniform magnitudes over one to two decades around the values in the sources, random signs) and kept only if they pass all enforced tests (rejection ABC).
+Words are turned into thresholds by \emph{choices}: ``most'' $\ge0.60$, ``seldom'' $\le0.30$, ``part of the devices'' $\ge0.10$ (loose and strict variants: Sec.~\ref{sec:sens}).
+\begin{table}[H]\centering\small\begin{tabular}{p{0.55\textwidth}p{0.13\textwidth}p{0.10\textwidth}p{0.12\textwidth}}\toprule
+Reported outcome & source & enforced & prior draws passing it alone\\\midrule
+A1 circle and square lase along $x$ and (nearly) never switch & \cite{yuan2025clea,yuan2025apl126} & yes & \margAOne\,\%\\
+A2 1:0.7 cruciform with the long arm along $x$ behaves like the circle & \cite{yuan2025apl126} & yes & \margATwo\,\%\\
+A3 the initial polarization follows the long arm ($x$ at $0^\circ$, $y$ at $90^\circ$) & \cite{yuan2025clea,yuan2025mesa} & yes & \margAThree\,\%\\
+A5 the $90^\circ$ cruciform switches $y\to x$ more often than $x\to y$ & \cite{yuan2025mesa} & yes & \margAFive\,\%\\
+A4 the $60^\circ$ and $90^\circ$ 1:0.7 cruciforms switch in part of the devices & \cite{yuan2025apl126} & yes & \margAFour\,\%\\
+A6 the symmetric cross switches more often than the circle & \cite{yuan2025clea} & no (reported) & \margASix\,\%\\\bottomrule\end{tabular}
+\caption{The anchors. The shares come from a separate run of \nMarginalDraws{} prior draws in which every anchor is evaluated for every draw; all enforced together: \marginalAllEnforced\,\% of those draws, against \accPct\,\% in the main run (\nAccepted{} of \nDraws{}); the two differ by about two standard errors of the smaller run. The $30^\circ$ member of A4 is reported, not enforced (see below).}\end{table}
+\paragraph{Result.} Of \nDraws{} prior draws, \textbf{\nAccepted{} (\accPct\,\%)} pass every enforced anchor; they are the \emph{literature-consistent worlds} used everywhere below.
+Median [5th, 95th percentile] of the accepted constants: $d_0=\postdzero$\,ns$^{-1}$, $b_0=\postbzero$, $k_d=\postkd$, $k_b=\postkb$. Three structural facts come out:
+(i) $k_d<0$ in every accepted world (an elongated aperture favours its long axis), as A2 and A3 require;
+(ii) $d_0$ and $|k_d|$ are tightly correlated (Fig.~\ref{fig:anch}): the shape has to be able to cancel the native dichroism at arm ratio 0.7 --- a \emph{compensation ridge}, the model's version of the mechanism named in \cite{yuan2025jlt};
+(iii) \fracBzeroPos\,\% of accepted worlds have $b_0>0$ (native birefringence of the class that \emph{cannot} switch, so the circle stays put), while the sign of $k_b$ is not identified (\fracKbNeg\,\% negative).
+Acceptance depends partly on the device population it was decided on: re-screening the accepted worlds on \nFreshAnchorPops{} fresh populations of the same size, \freshAnchorLo--\freshAnchorHi\,\% still pass all five enforced anchors (nearly all failures are at A4, the anchor with the smallest margin).
+The fresh-device comparisons of Sec.~\ref{sec:batch} are therefore slightly outside the set of worlds that the anchors select.
+\begin{figure}[H]\centering\includegraphics[width=\textwidth]{../figures/anchored_worlds.png}\caption{Literature-consistent worlds. Left: native dichroism against dichroism coupling (log axes); red: primary run, dotted: its prior box; blue circles and dashed box: the run with the wider prior. Middle: native birefringence $b_0$ and birefringence coupling $k_b$ (magnitudes, split by sign). Right: share of prior draws that pass each anchor alone (dashed: all enforced anchors together).}\label{fig:anch}\end{figure}
+\paragraph{The prior box matters for one constant.} The accepted native dichroism piles up against the lower edge of the prior box ($d_0\ge1$\,ns$^{-1}$): median \dzeroMedPrim{} [\dzeroQfivePrim, \dzeroQninetyfivePrim], and \dzeroNearEdgePrim\,\% of the accepted worlds lie below 2\,ns$^{-1}$. The anchors do not bound $d_0$ from below; in the model the bound comes from the device-to-device scatter of the native dichroism (0.25\,ns$^{-1}$), below which the native polarization is no longer the majority one.
+A second run with the box widened to $d_0\ge0.2$ and $|k_d|\ge0.6$\,ns$^{-1}$ accepted \nAccWide{} of \nDrawsWide{} draws (\accPctWide\,\%), with median $d_0=\dzeroMedWide$\,ns$^{-1}$ and \dzeroBelowOneWide\,\% of the worlds below 1\,ns$^{-1}$. What this changes for the ranking of the design sets and for the best rotation is reported in Sec.~\ref{sec:sens}; every other result uses the primary set.
+\paragraph{Two published observations are not reproduced.} (a) The $30^\circ$ cruciform is grouped with the switching devices in \cite{yuan2025apl126}; in the accepted worlds its mean switching fraction is only \pswThirty{} against \pswSixty{} ($60^\circ$) and \pswNinety{} ($90^\circ$).
+(b) The symmetric cross should switch more often than the circle \cite{yuan2025clea}; here \pswSym{} against \pswCircle. Both point at the same structural limit: with a second-rank model a C$_4$ cross carries no shape anisotropy of its own, and at $30^\circ$/$60^\circ$ the
+induced dichroism and birefringence vectors are not parallel to the native ones, which produces elliptical states. Predictions for angles far from $90^\circ$ should therefore be trusted least; this is a reason to measure them.
+
+\input{results_sections.tex}
+
+\section{Limitations and what remains uncertain}
+\begin{itemize}\setlength\itemsep{1pt}
+\item Constants and process parameters are not measured; the anchors are qualitative and many worlds satisfy them. Conclusions are therefore stated as distributions over worlds, never as one fitted value.
+\item Thresholds that translate ``most/seldom/part'' into numbers are choices (Sec.~\ref{sec:sens} shows their effect); the sizes of the fabricated apertures are not in the text read, so the published designs are drawn at assumed sizes ($L=17.5\,\mu$m, $w=6\,\mu$m, corner fraction 0.5).
+\item Structural limits: single-mode SFM although apertures of this size may be multimode; scalar mode used only as a weight; linear phenomenological coupling; second-rank symmetry; the birefringence channel is attributed to stress, which a semi-vectorial check supports only indirectly (the optical form birefringence is 25--450 times smaller than measured splittings at the assumed index step, and at least 10 times smaller at a five times larger step, Sec.~\ref{sec:formbiref}) and which no mechanical simulation has computed; two of six published observations not reproduced (Sec.~\ref{sec:anchor}).
+\item Sources not read in full: \cite{yuan2025jlt} (abstract only), \cite{yuan2025apl127} (listing only). The SFM constants of \cite{yuan2025apl126} could not be re-checked in the last pass; the model uses typical magnitudes. The second set, from \cite{chen2026meta} (spin-flip rate 20 times larger), accepts no world in 4000 draws, so that robustness check is inconclusive, not confirmatory.
+\item The corner treatment of mask family A is not recorded in the project notes and is assumed sharp; family B has the recorded $2.25\,\mu$m short-arm radius. With fully rounded arm tips for family A the predicted number of switching devices at $60^\circ$--$120^\circ$ falls from \cntHighMean{} to \cntHighRoundMean{} of 12 (Sec.~\ref{sec:falsify}); the author should check the mask file.
+\item The yields presume that switching comes from the spin-flip dynamics at a fixed anisotropy; a thermal dichroism drift of the size probed in Sec.~\ref{sec:sens} removes the yield from every set of designs, and the oxidation anisotropy (placeholder 1.15) decides whether the model-selected batch beats the author's mask.
+\item The accepted native dichroism piles up against the lower edge of the default prior box (Sec.~\ref{sec:anchor}); the wider prior changes the numbers but not the ordering of the design sets, and in the re-conditioned worlds the sign of the native birefringence depends on the assumed thermal drift.
+\item The headline batch scores are optimistic. The best-of-batch yield is 0.86 on the 32 test worlds but \othPortOther{} on \nOtherWorlds{} further accepted worlds (Sec.~\ref{sec:batch}); the ordering of the sets holds, the level does not, and ``best of batch'' assumes that the best design can be identified after measurement.
+\item The optimiser benchmark has five simulated wafers for P1 and P2 (chosen among feasible accepted worlds to span the range of difficulty) and eight runs for P3; runs on one wafer are not independent, so the paired-run tests overstate the evidence (Sec.~\ref{sec:bench}).
+\item No claim about real devices is made; nothing has been validated by measurement.
+\end{itemize}
+
+\section{Reproducibility}
+\sloppy
+\texttt{pip install -r requirements.txt}, \texttt{pytest} (unit, regression and citation-consistency tests); \texttt{scripts/run\_all.sh} regenerates the main results (roughly 1.5 hours on two cores; the logged steps took about 75 minutes) and \texttt{scripts/run\_extra.sh} the robustness extras of Secs.~\ref{sec:batch}--\ref{sec:sens} (about 20 minutes); \texttt{scripts/form\_birefringence.py} the semi-vectorial check of Sec.~\ref{sec:formbiref} (about 1 minute); \texttt{scripts/make\_figures.py}, \texttt{scripts/make\_tables.py} and \texttt{scripts/make\_readme.py} rebuild the figures, the tables of this document and the README.
+The primary set of literature-consistent worlds took \secAnchored\,s on two cores. All random streams are seeded.
+
+\appendix
+\section{Verification status of every reference}\label{tab:refs}
+\begin{center}\small\tabRefStatus\end{center}
+\noindent READ-FULL: full text opened and read; READ-ABSTRACT: title, authors and abstract read on the publisher page; LISTING: title, venue and year confirmed on publisher/index pages, page itself not read.
+Two references of the first version of this project (a ``Chua et al.'' paper on anisotropic apertures and a ``Garcia-Santiago et al.'' paper) could not be verified at all and were removed.
+
+\bibliographystyle{unsrtnat}
+\bibliography{../docs/references}
+\end{document}

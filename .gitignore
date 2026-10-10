@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# not published: the lab's decoded mask and the MLSS application texts
+mask/example/
+application/
+# intermediate files
+results/*.partial.pkl
+results/sensitivity_parts/
+mask/out/*_stdout.txt
+*.blg

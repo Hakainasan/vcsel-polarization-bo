@@ -1,0 +1,454 @@
+{
+ "note": "MODEL PREDICTIONS; scenarios A perturb the model on the same test worlds, B re-condition on the literature",
+ "n_test_worlds": 32,
+ "sets": {
+  "portfolio": 16,
+  "author_mask": 16,
+  "apl126_seven": 7
+ },
+ "skipped_scenarios": {
+  "chen": "no world accepted (0 of 4000 draws)"
+ },
+ "baseline": {
+  "portfolio": {
+   "E_best": 0.8587239583333334,
+   "P_ge_half": 0.9375,
+   "mean_single": 0.4144965277777778
+  },
+  "author_mask": {
+   "E_best": 0.6846788194444445,
+   "P_ge_half": 0.71875,
+   "mean_single": 0.1348605685763889
+  },
+  "apl126_seven": {
+   "E_best": 0.5731336805555556,
+   "P_ge_half": 0.59375,
+   "mean_single": 0.12363591269841269
+  }
+ },
+ "process depth=0.7": {
+  "portfolio": {
+   "E_best": 0.8546006944444445,
+   "P_ge_half": 0.90625,
+   "mean_single": 0.3713650173611111
+  },
+  "author_mask": {
+   "E_best": 0.7098524305555556,
+   "P_ge_half": 0.8125,
+   "mean_single": 0.12801106770833331
+  },
+  "apl126_seven": {
+   "E_best": 0.6380208333333334,
+   "P_ge_half": 0.75,
+   "mean_single": 0.12468998015873015
+  }
+ },
+ "process depth=1.3": {
+  "portfolio": {
+   "E_best": 0.7497829861111112,
+   "P_ge_half": 0.84375,
+   "mean_single": 0.3152398003472222
+  },
+  "author_mask": {
+   "E_best": 0.6584201388888888,
+   "P_ge_half": 0.65625,
+   "mean_single": 0.11908637152777779
+  },
+  "apl126_seven": {
+   "E_best": 0.5870225694444444,
+   "P_ge_half": 0.59375,
+   "mean_single": 0.11576140873015874
+  }
+ },
+ "process ox_ratio=1.0": {
+  "portfolio": {
+   "E_best": 0.75,
+   "P_ge_half": 0.84375,
+   "mean_single": 0.1458197699652778
+  },
+  "author_mask": {
+   "E_best": 0.8207465277777778,
+   "P_ge_half": 0.90625,
+   "mean_single": 0.12486436631944445
+  },
+  "apl126_seven": {
+   "E_best": 0.7710503472222222,
+   "P_ge_half": 0.875,
+   "mean_single": 0.13823784722222224
+  }
+ },
+ "process ox_ratio=1.3": {
+  "portfolio": {
+   "E_best": 0.80859375,
+   "P_ge_half": 0.9375,
+   "mean_single": 0.2764214409722222
+  },
+  "author_mask": {
+   "E_best": 0.654513888888889,
+   "P_ge_half": 0.78125,
+   "mean_single": 0.1437717013888889
+  },
+  "apl126_seven": {
+   "E_best": 0.5494791666666667,
+   "P_ge_half": 0.5625,
+   "mean_single": 0.11703249007936509
+  }
+ },
+ "dn_eff=0.005": {
+  "portfolio": {
+   "E_best": 0.8200954861111112,
+   "P_ge_half": 0.90625,
+   "mean_single": 0.3726806640625
+  },
+  "author_mask": {
+   "E_best": 0.6692708333333334,
+   "P_ge_half": 0.71875,
+   "mean_single": 0.12452528211805557
+  },
+  "apl126_seven": {
+   "E_best": 0.5399305555555556,
+   "P_ge_half": 0.5625,
+   "mean_single": 0.11067708333333336
+  }
+ },
+ "dn_eff=0.02": {
+  "portfolio": {
+   "E_best": 0.7703993055555556,
+   "P_ge_half": 0.90625,
+   "mean_single": 0.3812391493055556
+  },
+  "author_mask": {
+   "E_best": 0.6768663194444444,
+   "P_ge_half": 0.8125,
+   "mean_single": 0.1486545138888889
+  },
+  "apl126_seven": {
+   "E_best": 0.6145833333333333,
+   "P_ge_half": 0.78125,
+   "mean_single": 0.15215773809523808
+  }
+ },
+ "chi_th=-0.2": {
+  "portfolio": {
+   "E_best": 0.1875,
+   "P_ge_half": 0.15625,
+   "mean_single": 0.0301513671875
+  },
+  "author_mask": {
+   "E_best": 0.271484375,
+   "P_ge_half": 0.28125,
+   "mean_single": 0.03860134548611111
+  },
+  "apl126_seven": {
+   "E_best": 0.2365451388888889,
+   "P_ge_half": 0.25,
+   "mean_single": 0.0374813988095238
+  }
+ },
+ "chi_th=-0.05": {
+  "portfolio": {
+   "E_best": 0.7228732638888888,
+   "P_ge_half": 0.75,
+   "mean_single": 0.3577067057291667
+  },
+  "author_mask": {
+   "E_best": 0.6981336805555556,
+   "P_ge_half": 0.78125,
+   "mean_single": 0.1279568142361111
+  },
+  "apl126_seven": {
+   "E_best": 0.6944444444444444,
+   "P_ge_half": 0.78125,
+   "mean_single": 0.13820684523809526
+  }
+ },
+ "chi_th=+0.05": {
+  "portfolio": {
+   "E_best": 0.2914496527777778,
+   "P_ge_half": 0.28125,
+   "mean_single": 0.0873752170138889
+  },
+  "author_mask": {
+   "E_best": 0.177734375,
+   "P_ge_half": 0.15625,
+   "mean_single": 0.026082356770833336
+  },
+  "apl126_seven": {
+   "E_best": 0.13216145833333334,
+   "P_ge_half": 0.09375,
+   "mean_single": 0.024305555555555552
+  }
+ },
+ "chi_th=+0.2": {
+  "portfolio": {
+   "E_best": 0.04427083333333333,
+   "P_ge_half": 0.0,
+   "mean_single": 0.008097330729166668
+  },
+  "author_mask": {
+   "E_best": 0.046440972222222224,
+   "P_ge_half": 0.0,
+   "mean_single": 0.0081787109375
+  },
+  "apl126_seven": {
+   "E_best": 0.036675347222222224,
+   "P_ge_half": 0.0,
+   "mean_single": 0.006479414682539682
+  }
+ },
+ "coupling x0.5": {
+  "portfolio": {
+   "E_best": 0.24544270833333331,
+   "P_ge_half": 0.1875,
+   "mean_single": 0.0394287109375
+  },
+  "author_mask": {
+   "E_best": 0.431640625,
+   "P_ge_half": 0.4375,
+   "mean_single": 0.04379611545138889
+  },
+  "apl126_seven": {
+   "E_best": 0.6707899305555556,
+   "P_ge_half": 0.75,
+   "mean_single": 0.10608878968253967
+  }
+ },
+ "coupling x2": {
+  "portfolio": {
+   "E_best": 0.3943142361111111,
+   "P_ge_half": 0.40625,
+   "mean_single": 0.0677218967013889
+  },
+  "author_mask": {
+   "E_best": 0.2465277777777778,
+   "P_ge_half": 0.1875,
+   "mean_single": 0.042182074652777776
+  },
+  "apl126_seven": {
+   "E_best": 0.19921875,
+   "P_ge_half": 0.125,
+   "mean_single": 0.033017113095238096
+  }
+ },
+ "device scatter x2": {
+  "portfolio": {
+   "E_best": 0.6764322916666667,
+   "P_ge_half": 0.84375,
+   "mean_single": 0.3328993055555556
+  },
+  "author_mask": {
+   "E_best": 0.570529513888889,
+   "P_ge_half": 0.625,
+   "mean_single": 0.13145616319444445
+  },
+  "apl126_seven": {
+   "E_best": 0.5258246527777778,
+   "P_ge_half": 0.5625,
+   "mean_single": 0.12251984126984126
+  }
+ },
+ "mask tolerance (rot 1 deg, L and w 0.3 um)": {
+  "portfolio": {
+   "E_best": 0.8059895833333335,
+   "P_ge_half": 0.9375,
+   "mean_single": 0.34836154513888884
+  },
+  "author_mask": {
+   "E_best": 0.6473524305555556,
+   "P_ge_half": 0.6875,
+   "mean_single": 0.1075168185763889
+  },
+  "apl126_seven": {
+   "E_best": 0.3940972222222222,
+   "P_ge_half": 0.40625,
+   "mean_single": 0.09818328373015871
+  }
+ },
+ "fine geometry grid": {
+  "portfolio": {
+   "E_best": 0.87109375,
+   "P_ge_half": 0.9375,
+   "mean_single": 0.4033474392361111
+  },
+  "author_mask": {
+   "E_best": 0.7319878472222223,
+   "P_ge_half": 0.75,
+   "mean_single": 0.1276177300347222
+  },
+  "apl126_seven": {
+   "E_best": 0.6137152777777778,
+   "P_ge_half": 0.6875,
+   "mean_single": 0.11972966269841269
+  }
+ },
+ "window 1.15-1.60 (low bias)": {
+  "portfolio": {
+   "E_best": 0.8153211805555556,
+   "P_ge_half": 0.96875,
+   "mean_single": 0.3251274956597222
+  },
+  "author_mask": {
+   "E_best": 0.535373263888889,
+   "P_ge_half": 0.5625,
+   "mean_single": 0.11090766059027779
+  },
+  "apl126_seven": {
+   "E_best": 0.44118923611111116,
+   "P_ge_half": 0.46875,
+   "mean_single": 0.08454241071428571
+  }
+ },
+ "window 1.15-2.05 (wide)": {
+  "portfolio": {
+   "E_best": 0.8943142361111112,
+   "P_ge_half": 0.9375,
+   "mean_single": 0.4972330729166667
+  },
+  "author_mask": {
+   "E_best": 0.7571614583333333,
+   "P_ge_half": 0.8125,
+   "mean_single": 0.17220052083333331
+  },
+  "apl126_seven": {
+   "E_best": 0.6723090277777779,
+   "P_ge_half": 0.6875,
+   "mean_single": 0.15736607142857142
+  }
+ },
+ "SFM constants of the metasurface paper (same worlds)": {
+  "portfolio": {
+   "E_best": 0.0,
+   "P_ge_half": 0.0,
+   "mean_single": 0.0
+  },
+  "author_mask": {
+   "E_best": 0.0,
+   "P_ge_half": 0.0,
+   "mean_single": 0.0
+  },
+  "apl126_seven": {
+   "E_best": 0.0,
+   "P_ge_half": 0.0,
+   "mean_single": 0.0
+  }
+ },
+ "worlds accepted with LOOSE thresholds": {
+  "portfolio": {
+   "E_best": 0.7747395833333333,
+   "P_ge_half": 0.8125,
+   "mean_single": 0.3299560546875
+  },
+  "author_mask": {
+   "E_best": 0.7083333333333334,
+   "P_ge_half": 0.78125,
+   "mean_single": 0.14208984375
+  },
+  "apl126_seven": {
+   "E_best": 0.6475694444444444,
+   "P_ge_half": 0.6875,
+   "mean_single": 0.12295386904761905
+  }
+ },
+ "worlds accepted with STRICT thresholds": {
+  "portfolio": {
+   "E_best": 0.9177517361111112,
+   "P_ge_half": 0.9375,
+   "mean_single": 0.4640977647569445
+  },
+  "author_mask": {
+   "E_best": 0.8031684027777778,
+   "P_ge_half": 0.84375,
+   "mean_single": 0.19944932725694442
+  },
+  "apl126_seven": {
+   "E_best": 0.6924913194444444,
+   "P_ge_half": 0.75,
+   "mean_single": 0.14822048611111113
+  }
+ },
+ "worlds accepted under a wider prior (native dichroism from 0.2 1/ns)": {
+  "portfolio": {
+   "E_best": 0.7176649305555556,
+   "P_ge_half": 0.71875,
+   "mean_single": 0.3759629991319444
+  },
+  "author_mask": {
+   "E_best": 0.6325954861111112,
+   "P_ge_half": 0.65625,
+   "mean_single": 0.1575656467013889
+  },
+  "apl126_seven": {
+   "E_best": 0.6254340277777778,
+   "P_ge_half": 0.65625,
+   "mean_single": 0.15212673611111113
+  }
+ },
+ "RECONDITIONED: oxidation isotropic (ox_ratio=1.0)": {
+  "portfolio": {
+   "E_best": 0.6121961805555556,
+   "P_ge_half": 0.625,
+   "mean_single": 0.1417778862847222
+  },
+  "author_mask": {
+   "E_best": 0.61328125,
+   "P_ge_half": 0.65625,
+   "mean_single": 0.11842176649305555
+  },
+  "apl126_seven": {
+   "E_best": 0.5607638888888888,
+   "P_ge_half": 0.625,
+   "mean_single": 0.1101810515873016
+  }
+ },
+ "RECONDITIONED: oxidation anisotropy ox_ratio=1.3": {
+  "portfolio": {
+   "E_best": 0.765625,
+   "P_ge_half": 0.8125,
+   "mean_single": 0.3102349175347222
+  },
+  "author_mask": {
+   "E_best": 0.7141927083333335,
+   "P_ge_half": 0.75,
+   "mean_single": 0.1336398654513889
+  },
+  "apl126_seven": {
+   "E_best": 0.6241319444444444,
+   "P_ge_half": 0.65625,
+   "mean_single": 0.1320374503968254
+  }
+ },
+ "RECONDITIONED: thermal dichroism drift chi_th=-0.2": {
+  "portfolio": {
+   "E_best": 0.1655815972222222,
+   "P_ge_half": 0.125,
+   "mean_single": 0.02227105034722222
+  },
+  "author_mask": {
+   "E_best": 0.2437065972222222,
+   "P_ge_half": 0.21875,
+   "mean_single": 0.03573947482638889
+  },
+  "apl126_seven": {
+   "E_best": 0.111328125,
+   "P_ge_half": 0.09375,
+   "mean_single": 0.018725198412698412
+  }
+ },
+ "RECONDITIONED: thermal dichroism drift chi_th=+0.2": {
+  "portfolio": {
+   "E_best": 0.08832465277777779,
+   "P_ge_half": 0.0,
+   "mean_single": 0.0196533203125
+  },
+  "author_mask": {
+   "E_best": 0.06901041666666667,
+   "P_ge_half": 0.0,
+   "mean_single": 0.012125651041666668
+  },
+  "apl126_seven": {
+   "E_best": 0.03255208333333333,
+   "P_ge_half": 0.0,
+   "mean_single": 0.005952380952380952
+  }
+ }
+}

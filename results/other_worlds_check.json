@@ -1,0 +1,92 @@
+{
+ "note": "MODEL PREDICTIONS conditional on the literature anchors; oracle 'best-of-batch' score; not measurements",
+ "n_test_worlds": 32,
+ "n_other_worlds": 117,
+ "n_nontrain_worlds": 149,
+ "designs_evaluated": 46,
+ "sets": {
+  "portfolio_16": {
+   "n_designs": 16,
+   "test": 0.8569878472222223,
+   "other": 0.7413342830009497,
+   "nontrain": 0.7661726323639075,
+   "other_sd_over_worlds": 0.33240399912558205
+  },
+  "portfolio_first8": {
+   "n_designs": 8,
+   "test": 0.8515625,
+   "other": 0.7362891737891738,
+   "nontrain": 0.7610458612975393,
+   "other_sd_over_worlds": 0.331594509801224
+  },
+  "mask_16": {
+   "n_designs": 16,
+   "test": 0.6846788194444445,
+   "other": 0.6141381766381767,
+   "nontrain": 0.6292878448918717,
+   "other_sd_over_worlds": 0.3615637183180428
+  },
+  "seven_published": {
+   "n_designs": 7,
+   "test": 0.5731336805555556,
+   "other": 0.5620251661918328,
+   "nontrain": 0.5644108873974646,
+   "other_sd_over_worlds": 0.35191952774291585
+  },
+  "rotation_family_8": {
+   "n_designs": 8,
+   "test": 0.7087673611111112,
+   "other": 0.5978157644824311,
+   "nontrain": 0.6216442953020135,
+   "other_sd_over_worlds": 0.35859207019985206
+  },
+  "mask_plus_3_pool": {
+   "n_designs": 19,
+   "test": 0.8546006944444444,
+   "other": 0.7220441595441597,
+   "nontrain": 0.7505126771066368,
+   "other_sd_over_worlds": 0.3454931343488731
+  },
+  "mask_plus_3_interior": {
+   "n_designs": 19,
+   "test": 0.8305121527777777,
+   "other": 0.7201448243114911,
+   "nontrain": 0.743847874720358,
+   "other_sd_over_worlds": 0.34251874794928633
+  }
+ },
+ "differences_nontrain": {
+  "portfolio_minus_mask": {
+   "mean": 0.13688478747203578,
+   "lo": 0.10547049776286352,
+   "hi": 0.17039755779269206
+  },
+  "portfolio_minus_seven": {
+   "mean": 0.20176174496644295,
+   "lo": 0.1636838180462342,
+   "hi": 0.2414720824011932
+  },
+  "mask_plus_3_interior_minus_mask": {
+   "mean": 0.11456002982848619,
+   "lo": 0.08720171513795674,
+   "hi": 0.14350647837434752
+  },
+  "mask_plus_3_pool_minus_mask": {
+   "mean": 0.1212248322147651,
+   "lo": 0.09279222595078301,
+   "hi": 0.1524060868754661
+  },
+  "mask_minus_seven": {
+   "mean": 0.06487695749440717,
+   "lo": 0.0459545115585384,
+   "hi": 0.08543064876957496
+  }
+ },
+ "differences_other_only": {
+  "portfolio_minus_mask": {
+   "mean": 0.127196106362773,
+   "lo": 0.09389690170940171,
+   "hi": 0.16352089268755937
+  }
+ }
+}

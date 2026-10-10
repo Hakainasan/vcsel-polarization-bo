@@ -1,0 +1,941 @@
+{
+ "file": "VCSEL_PM_Group_2.gds",
+ "top_cells": [
+  "PM_Group_2"
+ ],
+ "flat": true,
+ "layers": [
+  "1/0",
+  "2/0",
+  "3/0",
+  "4/0",
+  "5/0",
+  "6/0",
+  "7/0"
+ ],
+ "bbox_um": [
+  12.4,
+  10.0,
+  1943.587,
+  1962.5
+ ],
+ "inside_frame": true,
+ "largest_record_bytes": 4428,
+ "records": 3413,
+ "hygiene_device_area": {
+  "Mesa": {
+   "polygons": 42,
+   "max_vertices": 200,
+   "edges_below_5nm": 0,
+   "spikes_over_170deg": 0
+  },
+  "n-Metal": {
+   "polygons": 191,
+   "max_vertices": 281,
+   "edges_below_5nm": 0,
+   "spikes_over_170deg": 6
+  },
+  "p-MetalPad": {
+   "polygons": 42,
+   "max_vertices": 470,
+   "edges_below_5nm": 0,
+   "spikes_over_170deg": 0
+  },
+  "Grid Layer": {
+   "polygons": 42,
+   "max_vertices": 59,
+   "edges_below_5nm": 0,
+   "spikes_over_170deg": 0
+  },
+  "N Well": {
+   "polygons": 42,
+   "max_vertices": 71,
+   "edges_below_5nm": 0,
+   "spikes_over_170deg": 0
+  },
+  "first-p-metal": {
+   "polygons": 42,
+   "max_vertices": 465,
+   "edges_below_5nm": 0,
+   "spikes_over_170deg": 0
+  },
+  "Oxide/Nitride": {
+   "polygons": 42,
+   "max_vertices": 552,
+   "edges_below_5nm": 0,
+   "spikes_over_170deg": 0
+  }
+ },
+ "self_intersecting_polygons": {
+  "Mesa": 0,
+  "n-Metal": 0,
+  "p-MetalPad": 0,
+  "Grid Layer": 0,
+  "N Well": 0,
+  "first-p-metal": 0,
+  "Oxide/Nitride": 0
+ },
+ "drc_width_space_2um": {
+  "Mesa": {
+   "width_violations": 0,
+   "min_width_um": null,
+   "where_w": [],
+   "space_violations": 0,
+   "min_space_um": null,
+   "where_s": [],
+   "corner_contacts": 0
+  },
+  "n-Metal": {
+   "width_violations": 0,
+   "min_width_um": null,
+   "where_w": [],
+   "space_violations": 0,
+   "min_space_um": null,
+   "where_s": [],
+   "corner_contacts": 0
+  },
+  "p-MetalPad": {
+   "width_violations": 0,
+   "min_width_um": null,
+   "where_w": [],
+   "space_violations": 0,
+   "min_space_um": null,
+   "where_s": [],
+   "corner_contacts": 0
+  },
+  "Grid Layer": {
+   "width_violations": 0,
+   "min_width_um": null,
+   "where_w": [],
+   "space_violations": 0,
+   "min_space_um": null,
+   "where_s": [],
+   "corner_contacts": 0
+  },
+  "N Well": {
+   "width_violations": 0,
+   "min_width_um": null,
+   "where_w": [],
+   "space_violations": 0,
+   "min_space_um": null,
+   "where_s": [],
+   "corner_contacts": 0
+  },
+  "first-p-metal": {
+   "width_violations": 0,
+   "min_width_um": null,
+   "where_w": [],
+   "space_violations": 0,
+   "min_space_um": null,
+   "where_s": [],
+   "corner_contacts": 0
+  },
+  "Oxide/Nitride": {
+   "width_violations": 0,
+   "min_width_um": null,
+   "where_w": [],
+   "space_violations": 0,
+   "min_space_um": null,
+   "where_s": [],
+   "corner_contacts": 0
+  }
+ },
+ "narrow_features": {
+  "Mesa": [],
+  "n-Metal": [],
+  "p-MetalPad": [],
+  "Grid Layer": [],
+  "N Well": [],
+  "first-p-metal": [],
+  "Oxide/Nitride": []
+ },
+ "narrow_gaps": {
+  "Mesa": [],
+  "n-Metal": [],
+  "p-MetalPad": [],
+  "Grid Layer": [],
+  "N Well": [],
+  "first-p-metal": [],
+  "Oxide/Nitride": []
+ },
+ "devices": [
+  {
+   "slot": "r1c1",
+   "id": "X9",
+   "apertures": 1,
+   "areas": [
+    184.9
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.497,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r1c2",
+   "id": "X5",
+   "apertures": 1,
+   "areas": [
+    127.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r1c3",
+   "id": "X6",
+   "apertures": 1,
+   "areas": [
+    143.1
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r1c4",
+   "id": "X7",
+   "apertures": 1,
+   "areas": [
+    158.5
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r1c5",
+   "id": "S130",
+   "apertures": 1,
+   "areas": [
+    185.2
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r1c6",
+   "id": "S155",
+   "apertures": 1,
+   "areas": [
+    160.3
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r2c1",
+   "id": "X8",
+   "apertures": 1,
+   "areas": [
+    172.7
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.495,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r2c2",
+   "id": "X7S",
+   "apertures": 1,
+   "areas": [
+    91.9
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r2c3",
+   "id": "SYM",
+   "apertures": 1,
+   "areas": [
+    195.5
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.603,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r2c4",
+   "id": "X5",
+   "apertures": 1,
+   "areas": [
+    127.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r2c5",
+   "id": "X4",
+   "apertures": 1,
+   "areas": [
+    112.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.492,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r2c6",
+   "id": "CIRC",
+   "apertures": 1,
+   "areas": [
+    142.2
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.603,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r3c1",
+   "id": "X4",
+   "apertures": 1,
+   "areas": [
+    112.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.492,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r3c2",
+   "id": "S180",
+   "apertures": 1,
+   "areas": [
+    141.2
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r3c3",
+   "id": "X7",
+   "apertures": 1,
+   "areas": [
+    158.5
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r3c4",
+   "id": "S220",
+   "apertures": 1,
+   "areas": [
+    118.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r3c5",
+   "id": "X9",
+   "apertures": 1,
+   "areas": [
+    184.9
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.497,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r3c6",
+   "id": "X8",
+   "apertures": 1,
+   "areas": [
+    172.7
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.495,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r4c1",
+   "id": "S155",
+   "apertures": 1,
+   "areas": [
+    160.3
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r4c2",
+   "id": "S220",
+   "apertures": 1,
+   "areas": [
+    118.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r4c3",
+   "id": "X8",
+   "apertures": 1,
+   "areas": [
+    172.7
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.495,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r4c4",
+   "id": "X6",
+   "apertures": 1,
+   "areas": [
+    143.1
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r4c5",
+   "id": "S180",
+   "apertures": 1,
+   "areas": [
+    141.2
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r4c6",
+   "id": "X4",
+   "apertures": 1,
+   "areas": [
+    112.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.492,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r5c1",
+   "id": "X6",
+   "apertures": 1,
+   "areas": [
+    143.1
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r5c2",
+   "id": "X9",
+   "apertures": 1,
+   "areas": [
+    184.9
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.497,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r5c3",
+   "id": "S180",
+   "apertures": 1,
+   "areas": [
+    141.2
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r5c4",
+   "id": "S130",
+   "apertures": 1,
+   "areas": [
+    185.2
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r5c5",
+   "id": "S220",
+   "apertures": 1,
+   "areas": [
+    118.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r5c6",
+   "id": "X7",
+   "apertures": 1,
+   "areas": [
+    158.5
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r6c1",
+   "id": "CIRC",
+   "apertures": 1,
+   "areas": [
+    142.2
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.603,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r6c2",
+   "id": "S130",
+   "apertures": 1,
+   "areas": [
+    185.2
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r6c3",
+   "id": "X5",
+   "apertures": 1,
+   "areas": [
+    127.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r6c4",
+   "id": "SYM",
+   "apertures": 1,
+   "areas": [
+    195.5
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.603,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r6c5",
+   "id": "X7S",
+   "apertures": 1,
+   "areas": [
+    91.9
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r6c6",
+   "id": "X6",
+   "apertures": 1,
+   "areas": [
+    143.1
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r7c1",
+   "id": "X7",
+   "apertures": 1,
+   "areas": [
+    158.5
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r7c2",
+   "id": "X4",
+   "apertures": 1,
+   "areas": [
+    112.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.492,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r7c3",
+   "id": "S155",
+   "apertures": 1,
+   "areas": [
+    160.3
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.493,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r7c4",
+   "id": "X8",
+   "apertures": 1,
+   "areas": [
+    172.7
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.495,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r7c5",
+   "id": "X5",
+   "apertures": 1,
+   "areas": [
+    127.4
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.494,
+   "ring_gap_um": 4.602,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  },
+  {
+   "slot": "r7c6",
+   "id": "X9",
+   "apertures": 1,
+   "areas": [
+    184.9
+   ],
+   "parasitic": 0,
+   "ring_clear_of_aperture_1um": true,
+   "ring_to_aperture_um": 1.497,
+   "ring_gap_um": 4.601,
+   "ring_on_mesa": true,
+   "no_ppad_on_aperture": true,
+   "no_passivation_on_aperture": true,
+   "contact_opening": true,
+   "ppad_touches_contact": true,
+   "expected_apertures": 1
+  }
+ ],
+ "devices_failing": [],
+ "nmetal_ppad_closer_than_10um": 0,
+ "nmetal_overlaps_ppad": false,
+ "nmetal_islands_device_area": 158,
+ "alignment_strip_xor_area_um2": {
+  "Mesa": 0.0,
+  "n-Metal": 0.0,
+  "p-MetalPad": 0.0,
+  "Grid Layer": 0.0,
+  "N Well": 0.0,
+  "first-p-metal": 0.0,
+  "Oxide/Nitride": 0.0
+ },
+ "alignment_strip_xor_area_um2_raw": {
+  "Mesa": 6.466,
+  "n-Metal": 0.0,
+  "p-MetalPad": 0.0,
+  "Grid Layer": 0.0,
+  "N Well": 0.0,
+  "first-p-metal": 0.0,
+  "Oxide/Nitride": 0.0
+ }
+}
