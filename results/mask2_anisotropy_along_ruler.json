@@ -1,0 +1,244 @@
+{
+ "note": "MODEL PREDICTIONS: net dichroism (gamma_a) and birefringence (gamma_p) in ns^-1 at the nominal depth; splitting_GHz = 2 |b| / (2 pi)",
+ "n_worlds": 129,
+ "x1": {
+  "X9": {
+   "dichroism_median": 1.1955011785308742,
+   "birefringence_median": 31.136673277459458,
+   "splitting_GHz_median": 9.911110927089997,
+   "share_dichroism_favours_01m1": 0.020025839793281652
+  },
+  "X8": {
+   "dichroism_median": 0.5142089870355235,
+   "birefringence_median": 37.36313384506195,
+   "splitting_GHz_median": 11.893054881691407,
+   "share_dichroism_favours_01m1": 0.40568475452196384
+  },
+  "X7": {
+   "dichroism_median": 1.5757227575558588,
+   "birefringence_median": 45.77099118074845,
+   "splitting_GHz_median": 14.569358993263327,
+   "share_dichroism_favours_01m1": 0.9844961240310077
+  },
+  "X6": {
+   "dichroism_median": 3.5646319302858522,
+   "birefringence_median": 54.20377318719832,
+   "splitting_GHz_median": 17.253596873949103,
+   "share_dichroism_favours_01m1": 0.9996770025839793
+  },
+  "X5": {
+   "dichroism_median": 4.94475899613513,
+   "birefringence_median": 64.67751755665842,
+   "splitting_GHz_median": 20.587493252110065,
+   "share_dichroism_favours_01m1": 1.0
+  },
+  "X4": {
+   "dichroism_median": 6.036498433391673,
+   "birefringence_median": 70.6876623707633,
+   "splitting_GHz_median": 22.500581763835893,
+   "share_dichroism_favours_01m1": 1.0
+  },
+  "S130": {
+   "dichroism_median": 1.1365721540956564,
+   "birefringence_median": 43.736488058794095,
+   "splitting_GHz_median": 13.921756536073469,
+   "share_dichroism_favours_01m1": 0.9156976744186046
+  },
+  "S155": {
+   "dichroism_median": 3.12189570405603,
+   "birefringence_median": 53.36632016680056,
+   "splitting_GHz_median": 16.98702729834202,
+   "share_dichroism_favours_01m1": 0.999031007751938
+  },
+  "S180": {
+   "dichroism_median": 4.762256458312203,
+   "birefringence_median": 61.82908778540231,
+   "splitting_GHz_median": 19.68080989581901,
+   "share_dichroism_favours_01m1": 1.0
+  },
+  "S220": {
+   "dichroism_median": 5.750274469834622,
+   "birefringence_median": 69.17574306573042,
+   "splitting_GHz_median": 22.019322901931798,
+   "share_dichroism_favours_01m1": 1.0
+  },
+  "CIRC": {
+   "dichroism_median": 1.918161225688977,
+   "birefringence_median": 27.29863645903166,
+   "splitting_GHz_median": 8.689425864247045,
+   "share_dichroism_favours_01m1": 0.0
+  },
+  "SYM": {
+   "dichroism_median": 1.9181612256889689,
+   "birefringence_median": 27.298636459031655,
+   "splitting_GHz_median": 8.689425864247045,
+   "share_dichroism_favours_01m1": 0.0
+  },
+  "X7S": {
+   "dichroism_median": 2.1291737170748686,
+   "birefringence_median": 48.11668291484127,
+   "splitting_GHz_median": 15.31601586216467,
+   "share_dichroism_favours_01m1": 0.9967700258397932
+  }
+ },
+ "x2": {
+  "X9": {
+   "dichroism_median": 3.0449024710699604,
+   "birefringence_median": 31.136673277459458,
+   "splitting_GHz_median": 9.911110927089997,
+   "share_dichroism_favours_01m1": 0.0
+  },
+  "X8": {
+   "dichroism_median": 2.0185354187358504,
+   "birefringence_median": 37.36313384506195,
+   "splitting_GHz_median": 11.893054881691407,
+   "share_dichroism_favours_01m1": 0.015180878552971577
+  },
+  "X7": {
+   "dichroism_median": 0.9671993578237875,
+   "birefringence_median": 45.77099118074845,
+   "splitting_GHz_median": 14.569358993263327,
+   "share_dichroism_favours_01m1": 0.3578811369509044
+  },
+  "X6": {
+   "dichroism_median": 1.5981754086505324,
+   "birefringence_median": 54.20377318719832,
+   "splitting_GHz_median": 17.253596873949103,
+   "share_dichroism_favours_01m1": 0.8010335917312662
+  },
+  "X5": {
+   "dichroism_median": 2.739871752798866,
+   "birefringence_median": 64.67751755665842,
+   "splitting_GHz_median": 20.587493252110065,
+   "share_dichroism_favours_01m1": 0.9815891472868217
+  },
+  "X4": {
+   "dichroism_median": 3.9389042492087434,
+   "birefringence_median": 70.6876623707633,
+   "splitting_GHz_median": 22.500581763835893,
+   "share_dichroism_favours_01m1": 0.999031007751938
+  },
+  "S130": {
+   "dichroism_median": 1.0535014151230713,
+   "birefringence_median": 43.736488058794095,
+   "splitting_GHz_median": 13.921756536073469,
+   "share_dichroism_favours_01m1": 0.24127906976744187
+  },
+  "S155": {
+   "dichroism_median": 1.2912433342284435,
+   "birefringence_median": 53.36632016680056,
+   "splitting_GHz_median": 16.98702729834202,
+   "share_dichroism_favours_01m1": 0.729328165374677
+  },
+  "S180": {
+   "dichroism_median": 2.5466588642909658,
+   "birefringence_median": 61.82908778540231,
+   "splitting_GHz_median": 19.68080989581901,
+   "share_dichroism_favours_01m1": 0.9673772609819121
+  },
+  "S220": {
+   "dichroism_median": 3.5928467725807485,
+   "birefringence_median": 69.17574306573042,
+   "splitting_GHz_median": 22.019322901931798,
+   "share_dichroism_favours_01m1": 0.999031007751938
+  },
+  "CIRC": {
+   "dichroism_median": 3.785383468452653,
+   "birefringence_median": 27.29863645903166,
+   "splitting_GHz_median": 8.689425864247045,
+   "share_dichroism_favours_01m1": 0.0
+  },
+  "SYM": {
+   "dichroism_median": 3.7853834684526437,
+   "birefringence_median": 27.298636459031655,
+   "splitting_GHz_median": 8.689425864247045,
+   "share_dichroism_favours_01m1": 0.0
+  },
+  "X7S": {
+   "dichroism_median": 0.9725373050284205,
+   "birefringence_median": 48.11668291484127,
+   "splitting_GHz_median": 15.31601586216467,
+   "share_dichroism_favours_01m1": 0.4870801033591731
+  }
+ },
+ "x3": {
+  "X9": {
+   "dichroism_median": 4.942564461919995,
+   "birefringence_median": 31.136673277459458,
+   "splitting_GHz_median": 9.911110927089997,
+   "share_dichroism_favours_01m1": 0.0
+  },
+  "X8": {
+   "dichroism_median": 3.850096655745905,
+   "birefringence_median": 37.36313384506195,
+   "splitting_GHz_median": 11.893054881691407,
+   "share_dichroism_favours_01m1": 0.0
+  },
+  "X7": {
+   "dichroism_median": 2.3771169000352783,
+   "birefringence_median": 45.77099118074845,
+   "splitting_GHz_median": 14.569358993263327,
+   "share_dichroism_favours_01m1": 0.05490956072351421
+  },
+  "X6": {
+   "dichroism_median": 1.4128701950592542,
+   "birefringence_median": 54.20377318719832,
+   "splitting_GHz_median": 17.253596873949103,
+   "share_dichroism_favours_01m1": 0.37467700258397935
+  },
+  "X5": {
+   "dichroism_median": 1.6134481284788378,
+   "birefringence_median": 64.67751755665842,
+   "splitting_GHz_median": 20.587493252110065,
+   "share_dichroism_favours_01m1": 0.6188630490956072
+  },
+  "X4": {
+   "dichroism_median": 2.1695258585533366,
+   "birefringence_median": 70.6876623707633,
+   "splitting_GHz_median": 22.500581763835893,
+   "share_dichroism_favours_01m1": 0.770671834625323
+  },
+  "S130": {
+   "dichroism_median": 2.7418535607413514,
+   "birefringence_median": 43.736488058794095,
+   "splitting_GHz_median": 13.921756536073469,
+   "share_dichroism_favours_01m1": 0.02487080103359173
+  },
+  "S155": {
+   "dichroism_median": 1.4825909308740544,
+   "birefringence_median": 53.36632016680056,
+   "splitting_GHz_median": 16.98702729834202,
+   "share_dichroism_favours_01m1": 0.292312661498708
+  },
+  "S180": {
+   "dichroism_median": 1.5602007432486273,
+   "birefringence_median": 61.82908778540231,
+   "splitting_GHz_median": 19.68080989581901,
+   "share_dichroism_favours_01m1": 0.5801033591731266
+  },
+  "S220": {
+   "dichroism_median": 1.9605641320396505,
+   "birefringence_median": 69.17574306573042,
+   "splitting_GHz_median": 22.019322901931798,
+   "share_dichroism_favours_01m1": 0.7416020671834626
+  },
+  "CIRC": {
+   "dichroism_median": 5.684080776984657,
+   "birefringence_median": 27.29863645903166,
+   "splitting_GHz_median": 8.689425864247045,
+   "share_dichroism_favours_01m1": 0.0
+  },
+  "SYM": {
+   "dichroism_median": 5.684080776984647,
+   "birefringence_median": 27.298636459031655,
+   "splitting_GHz_median": 8.689425864247045,
+   "share_dichroism_favours_01m1": 0.0
+  },
+  "X7S": {
+   "dichroism_median": 1.972769738383367,
+   "birefringence_median": 48.11668291484127,
+   "splitting_GHz_median": 15.31601586216467,
+   "share_dichroism_favours_01m1": 0.11498708010335917
+  }
+ }
+}

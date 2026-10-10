@@ -1,0 +1,399 @@
+{
+ "devices": [
+  {
+   "slot": "r1c1",
+   "id": "X9",
+   "apertures": 1,
+   "aperture_areas": [
+    184.9
+   ],
+   "aperture_aspect": 1.128
+  },
+  {
+   "slot": "r1c2",
+   "id": "X5",
+   "apertures": 1,
+   "aperture_areas": [
+    127.4
+   ],
+   "aperture_aspect": 2.148
+  },
+  {
+   "slot": "r1c3",
+   "id": "X6",
+   "apertures": 1,
+   "aperture_areas": [
+    143.1
+   ],
+   "aperture_aspect": 1.774
+  },
+  {
+   "slot": "r1c4",
+   "id": "X7",
+   "apertures": 1,
+   "aperture_areas": [
+    158.5
+   ],
+   "aperture_aspect": 1.496
+  },
+  {
+   "slot": "r1c5",
+   "id": "S130",
+   "apertures": 1,
+   "aperture_areas": [
+    185.2
+   ],
+   "aperture_aspect": 1.267
+  },
+  {
+   "slot": "r1c6",
+   "id": "S155",
+   "apertures": 1,
+   "aperture_areas": [
+    160.3
+   ],
+   "aperture_aspect": 1.502
+  },
+  {
+   "slot": "r2c1",
+   "id": "X8",
+   "apertures": 1,
+   "aperture_areas": [
+    172.7
+   ],
+   "aperture_aspect": 1.288
+  },
+  {
+   "slot": "r2c2",
+   "id": "X7S",
+   "apertures": 1,
+   "aperture_areas": [
+    91.8
+   ],
+   "aperture_aspect": 1.488
+  },
+  {
+   "slot": "r2c3",
+   "id": "SYM",
+   "apertures": 1,
+   "aperture_areas": [
+    195.4
+   ],
+   "aperture_aspect": 1.0
+  },
+  {
+   "slot": "r2c4",
+   "id": "X5",
+   "apertures": 1,
+   "aperture_areas": [
+    127.4
+   ],
+   "aperture_aspect": 2.148
+  },
+  {
+   "slot": "r2c5",
+   "id": "X4",
+   "apertures": 1,
+   "aperture_areas": [
+    112.4
+   ],
+   "aperture_aspect": 2.63
+  },
+  {
+   "slot": "r2c6",
+   "id": "CIRC",
+   "apertures": 1,
+   "aperture_areas": [
+    142.2
+   ],
+   "aperture_aspect": 1.0
+  },
+  {
+   "slot": "r3c1",
+   "id": "X4",
+   "apertures": 1,
+   "aperture_areas": [
+    112.4
+   ],
+   "aperture_aspect": 2.63
+  },
+  {
+   "slot": "r3c2",
+   "id": "S180",
+   "apertures": 1,
+   "aperture_areas": [
+    141.1
+   ],
+   "aperture_aspect": 1.74
+  },
+  {
+   "slot": "r3c3",
+   "id": "X7",
+   "apertures": 1,
+   "aperture_areas": [
+    158.5
+   ],
+   "aperture_aspect": 1.496
+  },
+  {
+   "slot": "r3c4",
+   "id": "S220",
+   "apertures": 1,
+   "aperture_areas": [
+    118.3
+   ],
+   "aperture_aspect": 2.128
+  },
+  {
+   "slot": "r3c5",
+   "id": "X9",
+   "apertures": 1,
+   "aperture_areas": [
+    184.9
+   ],
+   "aperture_aspect": 1.128
+  },
+  {
+   "slot": "r3c6",
+   "id": "X8",
+   "apertures": 1,
+   "aperture_areas": [
+    172.7
+   ],
+   "aperture_aspect": 1.288
+  },
+  {
+   "slot": "r4c1",
+   "id": "S155",
+   "apertures": 1,
+   "aperture_areas": [
+    160.3
+   ],
+   "aperture_aspect": 1.502
+  },
+  {
+   "slot": "r4c2",
+   "id": "S220",
+   "apertures": 1,
+   "aperture_areas": [
+    118.3
+   ],
+   "aperture_aspect": 2.128
+  },
+  {
+   "slot": "r4c3",
+   "id": "X8",
+   "apertures": 1,
+   "aperture_areas": [
+    172.7
+   ],
+   "aperture_aspect": 1.288
+  },
+  {
+   "slot": "r4c4",
+   "id": "X6",
+   "apertures": 1,
+   "aperture_areas": [
+    143.1
+   ],
+   "aperture_aspect": 1.774
+  },
+  {
+   "slot": "r4c5",
+   "id": "S180",
+   "apertures": 1,
+   "aperture_areas": [
+    141.1
+   ],
+   "aperture_aspect": 1.74
+  },
+  {
+   "slot": "r4c6",
+   "id": "X4",
+   "apertures": 1,
+   "aperture_areas": [
+    112.4
+   ],
+   "aperture_aspect": 2.63
+  },
+  {
+   "slot": "r5c1",
+   "id": "X6",
+   "apertures": 1,
+   "aperture_areas": [
+    143.1
+   ],
+   "aperture_aspect": 1.774
+  },
+  {
+   "slot": "r5c2",
+   "id": "X9",
+   "apertures": 1,
+   "aperture_areas": [
+    184.9
+   ],
+   "aperture_aspect": 1.128
+  },
+  {
+   "slot": "r5c3",
+   "id": "S180",
+   "apertures": 1,
+   "aperture_areas": [
+    141.1
+   ],
+   "aperture_aspect": 1.74
+  },
+  {
+   "slot": "r5c4",
+   "id": "S130",
+   "apertures": 1,
+   "aperture_areas": [
+    185.2
+   ],
+   "aperture_aspect": 1.267
+  },
+  {
+   "slot": "r5c5",
+   "id": "S220",
+   "apertures": 1,
+   "aperture_areas": [
+    118.3
+   ],
+   "aperture_aspect": 2.128
+  },
+  {
+   "slot": "r5c6",
+   "id": "X7",
+   "apertures": 1,
+   "aperture_areas": [
+    158.5
+   ],
+   "aperture_aspect": 1.496
+  },
+  {
+   "slot": "r6c1",
+   "id": "CIRC",
+   "apertures": 1,
+   "aperture_areas": [
+    142.2
+   ],
+   "aperture_aspect": 1.0
+  },
+  {
+   "slot": "r6c2",
+   "id": "S130",
+   "apertures": 1,
+   "aperture_areas": [
+    185.2
+   ],
+   "aperture_aspect": 1.267
+  },
+  {
+   "slot": "r6c3",
+   "id": "X5",
+   "apertures": 1,
+   "aperture_areas": [
+    127.4
+   ],
+   "aperture_aspect": 2.148
+  },
+  {
+   "slot": "r6c4",
+   "id": "SYM",
+   "apertures": 1,
+   "aperture_areas": [
+    195.4
+   ],
+   "aperture_aspect": 1.0
+  },
+  {
+   "slot": "r6c5",
+   "id": "X7S",
+   "apertures": 1,
+   "aperture_areas": [
+    91.8
+   ],
+   "aperture_aspect": 1.488
+  },
+  {
+   "slot": "r6c6",
+   "id": "X6",
+   "apertures": 1,
+   "aperture_areas": [
+    143.1
+   ],
+   "aperture_aspect": 1.774
+  },
+  {
+   "slot": "r7c1",
+   "id": "X7",
+   "apertures": 1,
+   "aperture_areas": [
+    158.5
+   ],
+   "aperture_aspect": 1.496
+  },
+  {
+   "slot": "r7c2",
+   "id": "X4",
+   "apertures": 1,
+   "aperture_areas": [
+    112.4
+   ],
+   "aperture_aspect": 2.63
+  },
+  {
+   "slot": "r7c3",
+   "id": "S155",
+   "apertures": 1,
+   "aperture_areas": [
+    160.3
+   ],
+   "aperture_aspect": 1.502
+  },
+  {
+   "slot": "r7c4",
+   "id": "X8",
+   "apertures": 1,
+   "aperture_areas": [
+    172.7
+   ],
+   "aperture_aspect": 1.288
+  },
+  {
+   "slot": "r7c5",
+   "id": "X5",
+   "apertures": 1,
+   "aperture_areas": [
+    127.4
+   ],
+   "aperture_aspect": 2.148
+  },
+  {
+   "slot": "r7c6",
+   "id": "X9",
+   "apertures": 1,
+   "aperture_areas": [
+    184.9
+   ],
+   "aperture_aspect": 1.128
+  }
+ ],
+ "parameters": {
+  "D_OX": 5.0,
+  "RING_OUT": 0.75,
+  "RING_IN": 3.5,
+  "OX_IN": 2.0,
+  "PPAD_OUT": 8.0,
+  "OX_OUT": 22.0,
+  "GAP_WIDTH": 4.6,
+  "NWELL_R": 10.0,
+  "CLEAN_R": 1.05,
+  "TIDY_EPS": 0.005,
+  "MAX_POINTS": 4000,
+  "JUNCTION_R": 2.0,
+  "LABEL_LAYER": "nmetal",
+  "LABEL_MIRROR": true,
+  "MESA_GAP": 2.0
+ }
+}

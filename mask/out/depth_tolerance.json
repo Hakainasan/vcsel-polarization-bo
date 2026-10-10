@@ -1,0 +1,2477 @@
+{
+ "note": "GEOMETRY ONLY: drawn mesa eroded isotropically by the real oxidation depth D (design D = 5 um); aspect = sqrt of the eigenvalue ratio of the aperture's area covariance; axis 90 deg = along mask y",
+ "depths_um": [
+  4.0,
+  4.5,
+  5.0,
+  5.5,
+  6.0,
+  6.5
+ ],
+ "by_design": {
+  "X9": {
+   "4.0": {
+    "apertures": 1,
+    "area": 245.9,
+    "aspect": 1.119,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 214.6,
+    "aspect": 1.124,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 184.9,
+    "aspect": 1.128,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 157.2,
+    "aspect": 1.132,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 131.7,
+    "aspect": 1.134,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 108.5,
+    "aspect": 1.135,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "X5": {
+   "4.0": {
+    "apertures": 1,
+    "area": 178.9,
+    "aspect": 1.942,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 152.4,
+    "aspect": 2.037,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 127.4,
+    "aspect": 2.148,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 104.2,
+    "aspect": 2.281,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 83.1,
+    "aspect": 2.443,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 63.9,
+    "aspect": 2.645,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "X6": {
+   "4.0": {
+    "apertures": 1,
+    "area": 196.3,
+    "aspect": 1.665,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 168.9,
+    "aspect": 1.717,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 143.1,
+    "aspect": 1.774,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 119.1,
+    "aspect": 1.836,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 97.2,
+    "aspect": 1.904,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 77.4,
+    "aspect": 1.98,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "X7": {
+   "4.0": {
+    "apertures": 1,
+    "area": 213.8,
+    "aspect": 1.441,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 185.4,
+    "aspect": 1.469,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 158.5,
+    "aspect": 1.496,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 133.5,
+    "aspect": 1.524,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 110.6,
+    "aspect": 1.552,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 89.8,
+    "aspect": 1.581,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "S130": {
+   "4.0": {
+    "apertures": 1,
+    "area": 237.3,
+    "aspect": 1.231,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 210.5,
+    "aspect": 1.248,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 185.2,
+    "aspect": 1.267,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 161.6,
+    "aspect": 1.29,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.99
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 139.5,
+    "aspect": 1.317,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 119.0,
+    "aspect": 1.35,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "S155": {
+   "4.0": {
+    "apertures": 1,
+    "area": 209.9,
+    "aspect": 1.421,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 184.3,
+    "aspect": 1.458,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 160.3,
+    "aspect": 1.502,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 137.8,
+    "aspect": 1.554,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.99
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 117.0,
+    "aspect": 1.618,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.49
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 97.7,
+    "aspect": 1.699,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "X8": {
+   "4.0": {
+    "apertures": 1,
+    "area": 230.6,
+    "aspect": 1.263,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 200.9,
+    "aspect": 1.276,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 172.7,
+    "aspect": 1.288,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 146.4,
+    "aspect": 1.299,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 122.4,
+    "aspect": 1.31,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 100.5,
+    "aspect": 1.318,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "X7S": {
+   "4.0": {
+    "apertures": 1,
+    "area": 133.5,
+    "aspect": 1.417,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 111.9,
+    "aspect": 1.451,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 91.8,
+    "aspect": 1.488,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 73.6,
+    "aspect": 1.527,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 57.4,
+    "aspect": 1.574,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 43.1,
+    "aspect": 1.626,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "SYM": {
+   "4.0": {
+    "apertures": 1,
+    "area": 260.0,
+    "aspect": 1.0,
+    "axis_deg": 154.4,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 226.9,
+    "aspect": 1.0,
+    "axis_deg": 137.9,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 195.4,
+    "aspect": 1.0,
+    "axis_deg": 125.6,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 166.0,
+    "aspect": 1.0,
+    "axis_deg": 34.4,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 138.9,
+    "aspect": 1.0,
+    "axis_deg": 113.7,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 114.2,
+    "aspect": 1.0,
+    "axis_deg": 21.5,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "X4": {
+   "4.0": {
+    "apertures": 1,
+    "area": 162.8,
+    "aspect": 2.263,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 136.8,
+    "aspect": 2.424,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 112.4,
+    "aspect": 2.63,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 89.8,
+    "aspect": 2.903,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 69.1,
+    "aspect": 3.283,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 50.5,
+    "aspect": 3.846,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "CIRC": {
+   "4.0": {
+    "apertures": 1,
+    "area": 187.6,
+    "aspect": 1.0,
+    "axis_deg": 118.8,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 164.1,
+    "aspect": 1.0,
+    "axis_deg": 110.8,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 142.2,
+    "aspect": 1.0,
+    "axis_deg": 136.5,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 121.8,
+    "aspect": 1.0,
+    "axis_deg": 101.6,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 103.0,
+    "aspect": 1.0,
+    "axis_deg": 137.1,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 85.8,
+    "aspect": 1.0,
+    "axis_deg": 130.1,
+    "ring_clearance_um": 2.99
+   }
+  },
+  "S180": {
+   "4.0": {
+    "apertures": 1,
+    "area": 189.0,
+    "aspect": 1.606,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 164.3,
+    "aspect": 1.667,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 141.1,
+    "aspect": 1.74,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 119.5,
+    "aspect": 1.832,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 99.5,
+    "aspect": 1.948,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 81.1,
+    "aspect": 2.101,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "S220": {
+   "4.0": {
+    "apertures": 1,
+    "area": 164.3,
+    "aspect": 1.888,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 140.5,
+    "aspect": 1.994,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 118.3,
+    "aspect": 2.128,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 97.7,
+    "aspect": 2.302,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 78.7,
+    "aspect": 2.538,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 61.2,
+    "aspect": 2.875,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  }
+ },
+ "by_slot": {
+  "r1c1": {
+   "id": "X9",
+   "4.0": {
+    "apertures": 1,
+    "area": 245.9,
+    "aspect": 1.119,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 214.6,
+    "aspect": 1.124,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 184.9,
+    "aspect": 1.128,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 157.2,
+    "aspect": 1.132,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 131.7,
+    "aspect": 1.134,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 108.5,
+    "aspect": 1.135,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r1c2": {
+   "id": "X5",
+   "4.0": {
+    "apertures": 1,
+    "area": 178.9,
+    "aspect": 1.942,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 152.4,
+    "aspect": 2.037,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 127.4,
+    "aspect": 2.148,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 104.2,
+    "aspect": 2.281,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 83.1,
+    "aspect": 2.443,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 63.9,
+    "aspect": 2.645,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r1c3": {
+   "id": "X6",
+   "4.0": {
+    "apertures": 1,
+    "area": 196.3,
+    "aspect": 1.665,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 168.9,
+    "aspect": 1.717,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 143.1,
+    "aspect": 1.774,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 119.1,
+    "aspect": 1.836,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 97.2,
+    "aspect": 1.904,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 77.4,
+    "aspect": 1.98,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r1c4": {
+   "id": "X7",
+   "4.0": {
+    "apertures": 1,
+    "area": 213.8,
+    "aspect": 1.441,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 185.4,
+    "aspect": 1.469,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 158.5,
+    "aspect": 1.496,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 133.5,
+    "aspect": 1.524,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 110.6,
+    "aspect": 1.552,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 89.8,
+    "aspect": 1.581,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r1c5": {
+   "id": "S130",
+   "4.0": {
+    "apertures": 1,
+    "area": 237.3,
+    "aspect": 1.231,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 210.5,
+    "aspect": 1.248,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 185.2,
+    "aspect": 1.267,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 161.6,
+    "aspect": 1.29,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.99
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 139.5,
+    "aspect": 1.317,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 119.0,
+    "aspect": 1.35,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r1c6": {
+   "id": "S155",
+   "4.0": {
+    "apertures": 1,
+    "area": 209.9,
+    "aspect": 1.421,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 184.3,
+    "aspect": 1.458,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 160.3,
+    "aspect": 1.502,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 137.8,
+    "aspect": 1.554,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.99
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 117.0,
+    "aspect": 1.618,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.49
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 97.7,
+    "aspect": 1.699,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r2c1": {
+   "id": "X8",
+   "4.0": {
+    "apertures": 1,
+    "area": 230.6,
+    "aspect": 1.263,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 200.9,
+    "aspect": 1.276,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 172.7,
+    "aspect": 1.288,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 146.4,
+    "aspect": 1.299,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 122.4,
+    "aspect": 1.31,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 100.5,
+    "aspect": 1.318,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r2c2": {
+   "id": "X7S",
+   "4.0": {
+    "apertures": 1,
+    "area": 133.5,
+    "aspect": 1.417,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 111.9,
+    "aspect": 1.451,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 91.8,
+    "aspect": 1.488,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 73.6,
+    "aspect": 1.527,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 57.4,
+    "aspect": 1.574,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 43.1,
+    "aspect": 1.626,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r2c3": {
+   "id": "SYM",
+   "4.0": {
+    "apertures": 1,
+    "area": 260.0,
+    "aspect": 1.0,
+    "axis_deg": 154.4,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 226.9,
+    "aspect": 1.0,
+    "axis_deg": 137.9,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 195.4,
+    "aspect": 1.0,
+    "axis_deg": 125.6,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 166.0,
+    "aspect": 1.0,
+    "axis_deg": 34.4,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 138.9,
+    "aspect": 1.0,
+    "axis_deg": 113.7,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 114.2,
+    "aspect": 1.0,
+    "axis_deg": 21.5,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r2c4": {
+   "id": "X5",
+   "4.0": {
+    "apertures": 1,
+    "area": 178.9,
+    "aspect": 1.942,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 152.4,
+    "aspect": 2.037,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 127.4,
+    "aspect": 2.148,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 104.2,
+    "aspect": 2.281,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 83.1,
+    "aspect": 2.443,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 63.9,
+    "aspect": 2.645,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r2c5": {
+   "id": "X4",
+   "4.0": {
+    "apertures": 1,
+    "area": 162.8,
+    "aspect": 2.263,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 136.8,
+    "aspect": 2.424,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 112.4,
+    "aspect": 2.63,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 89.8,
+    "aspect": 2.903,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 69.1,
+    "aspect": 3.283,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 50.5,
+    "aspect": 3.846,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r2c6": {
+   "id": "CIRC",
+   "4.0": {
+    "apertures": 1,
+    "area": 187.6,
+    "aspect": 1.0,
+    "axis_deg": 118.8,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 164.1,
+    "aspect": 1.0,
+    "axis_deg": 110.8,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 142.2,
+    "aspect": 1.0,
+    "axis_deg": 136.5,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 121.8,
+    "aspect": 1.0,
+    "axis_deg": 101.6,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 103.0,
+    "aspect": 1.0,
+    "axis_deg": 137.1,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 85.8,
+    "aspect": 1.0,
+    "axis_deg": 130.1,
+    "ring_clearance_um": 2.99
+   }
+  },
+  "r3c1": {
+   "id": "X4",
+   "4.0": {
+    "apertures": 1,
+    "area": 162.8,
+    "aspect": 2.263,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 136.8,
+    "aspect": 2.424,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 112.4,
+    "aspect": 2.63,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 89.8,
+    "aspect": 2.903,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 69.1,
+    "aspect": 3.283,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 50.5,
+    "aspect": 3.846,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r3c2": {
+   "id": "S180",
+   "4.0": {
+    "apertures": 1,
+    "area": 189.0,
+    "aspect": 1.606,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 164.3,
+    "aspect": 1.667,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 141.1,
+    "aspect": 1.74,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 119.5,
+    "aspect": 1.832,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 99.5,
+    "aspect": 1.948,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 81.1,
+    "aspect": 2.101,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r3c3": {
+   "id": "X7",
+   "4.0": {
+    "apertures": 1,
+    "area": 213.8,
+    "aspect": 1.441,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 185.4,
+    "aspect": 1.469,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 158.5,
+    "aspect": 1.496,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 133.5,
+    "aspect": 1.524,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 110.6,
+    "aspect": 1.552,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 89.8,
+    "aspect": 1.581,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r3c4": {
+   "id": "S220",
+   "4.0": {
+    "apertures": 1,
+    "area": 164.3,
+    "aspect": 1.888,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 140.5,
+    "aspect": 1.994,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 118.3,
+    "aspect": 2.128,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 97.7,
+    "aspect": 2.302,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 78.7,
+    "aspect": 2.538,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 61.2,
+    "aspect": 2.875,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r3c5": {
+   "id": "X9",
+   "4.0": {
+    "apertures": 1,
+    "area": 245.9,
+    "aspect": 1.119,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 214.6,
+    "aspect": 1.124,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 184.9,
+    "aspect": 1.128,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 157.2,
+    "aspect": 1.132,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 131.7,
+    "aspect": 1.134,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 108.5,
+    "aspect": 1.135,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r3c6": {
+   "id": "X8",
+   "4.0": {
+    "apertures": 1,
+    "area": 230.6,
+    "aspect": 1.263,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 200.9,
+    "aspect": 1.276,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 172.7,
+    "aspect": 1.288,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 146.4,
+    "aspect": 1.299,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 122.4,
+    "aspect": 1.31,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 100.5,
+    "aspect": 1.318,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r4c1": {
+   "id": "S155",
+   "4.0": {
+    "apertures": 1,
+    "area": 209.9,
+    "aspect": 1.421,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 184.3,
+    "aspect": 1.458,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 160.3,
+    "aspect": 1.502,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 137.8,
+    "aspect": 1.554,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.99
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 117.0,
+    "aspect": 1.618,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.49
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 97.7,
+    "aspect": 1.699,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r4c2": {
+   "id": "S220",
+   "4.0": {
+    "apertures": 1,
+    "area": 164.3,
+    "aspect": 1.888,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 140.5,
+    "aspect": 1.994,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 118.3,
+    "aspect": 2.128,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 97.7,
+    "aspect": 2.302,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 78.7,
+    "aspect": 2.538,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 61.2,
+    "aspect": 2.875,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r4c3": {
+   "id": "X8",
+   "4.0": {
+    "apertures": 1,
+    "area": 230.6,
+    "aspect": 1.263,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 200.9,
+    "aspect": 1.276,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 172.7,
+    "aspect": 1.288,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 146.4,
+    "aspect": 1.299,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 122.4,
+    "aspect": 1.31,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 100.5,
+    "aspect": 1.318,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r4c4": {
+   "id": "X6",
+   "4.0": {
+    "apertures": 1,
+    "area": 196.3,
+    "aspect": 1.665,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 168.9,
+    "aspect": 1.717,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 143.1,
+    "aspect": 1.774,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 119.1,
+    "aspect": 1.836,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 97.2,
+    "aspect": 1.904,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 77.4,
+    "aspect": 1.98,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r4c5": {
+   "id": "S180",
+   "4.0": {
+    "apertures": 1,
+    "area": 189.0,
+    "aspect": 1.606,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 164.3,
+    "aspect": 1.667,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 141.1,
+    "aspect": 1.74,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 119.5,
+    "aspect": 1.832,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 99.5,
+    "aspect": 1.948,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 81.1,
+    "aspect": 2.101,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r4c6": {
+   "id": "X4",
+   "4.0": {
+    "apertures": 1,
+    "area": 162.8,
+    "aspect": 2.263,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 136.8,
+    "aspect": 2.424,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 112.4,
+    "aspect": 2.63,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 89.8,
+    "aspect": 2.903,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 69.1,
+    "aspect": 3.283,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 50.5,
+    "aspect": 3.846,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r5c1": {
+   "id": "X6",
+   "4.0": {
+    "apertures": 1,
+    "area": 196.3,
+    "aspect": 1.665,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 168.9,
+    "aspect": 1.717,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 143.1,
+    "aspect": 1.774,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 119.1,
+    "aspect": 1.836,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 97.2,
+    "aspect": 1.904,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 77.4,
+    "aspect": 1.98,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r5c2": {
+   "id": "X9",
+   "4.0": {
+    "apertures": 1,
+    "area": 245.9,
+    "aspect": 1.119,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 214.6,
+    "aspect": 1.124,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 184.9,
+    "aspect": 1.128,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 157.2,
+    "aspect": 1.132,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 131.7,
+    "aspect": 1.134,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 108.5,
+    "aspect": 1.135,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r5c3": {
+   "id": "S180",
+   "4.0": {
+    "apertures": 1,
+    "area": 189.0,
+    "aspect": 1.606,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 164.3,
+    "aspect": 1.667,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 141.1,
+    "aspect": 1.74,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 119.5,
+    "aspect": 1.832,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 99.5,
+    "aspect": 1.948,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 81.1,
+    "aspect": 2.101,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r5c4": {
+   "id": "S130",
+   "4.0": {
+    "apertures": 1,
+    "area": 237.3,
+    "aspect": 1.231,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 210.5,
+    "aspect": 1.248,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 185.2,
+    "aspect": 1.267,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 161.6,
+    "aspect": 1.29,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.99
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 139.5,
+    "aspect": 1.317,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 119.0,
+    "aspect": 1.35,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r5c5": {
+   "id": "S220",
+   "4.0": {
+    "apertures": 1,
+    "area": 164.3,
+    "aspect": 1.888,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 140.5,
+    "aspect": 1.994,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 118.3,
+    "aspect": 2.128,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 97.7,
+    "aspect": 2.302,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 78.7,
+    "aspect": 2.538,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 61.2,
+    "aspect": 2.875,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r5c6": {
+   "id": "X7",
+   "4.0": {
+    "apertures": 1,
+    "area": 213.8,
+    "aspect": 1.441,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 185.4,
+    "aspect": 1.469,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 158.5,
+    "aspect": 1.496,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 133.5,
+    "aspect": 1.524,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 110.6,
+    "aspect": 1.552,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 89.8,
+    "aspect": 1.581,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r6c1": {
+   "id": "CIRC",
+   "4.0": {
+    "apertures": 1,
+    "area": 187.6,
+    "aspect": 1.0,
+    "axis_deg": 118.9,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 164.1,
+    "aspect": 1.0,
+    "axis_deg": 110.8,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 142.2,
+    "aspect": 1.0,
+    "axis_deg": 136.6,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 121.8,
+    "aspect": 1.0,
+    "axis_deg": 101.6,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 103.0,
+    "aspect": 1.0,
+    "axis_deg": 136.8,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 85.8,
+    "aspect": 1.0,
+    "axis_deg": 130.2,
+    "ring_clearance_um": 2.99
+   }
+  },
+  "r6c2": {
+   "id": "S130",
+   "4.0": {
+    "apertures": 1,
+    "area": 237.3,
+    "aspect": 1.231,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 210.5,
+    "aspect": 1.248,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 185.2,
+    "aspect": 1.267,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 161.6,
+    "aspect": 1.29,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.99
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 139.5,
+    "aspect": 1.317,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 119.0,
+    "aspect": 1.35,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r6c3": {
+   "id": "X5",
+   "4.0": {
+    "apertures": 1,
+    "area": 178.9,
+    "aspect": 1.942,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 152.4,
+    "aspect": 2.037,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 127.4,
+    "aspect": 2.148,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 104.2,
+    "aspect": 2.281,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 83.1,
+    "aspect": 2.443,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 63.9,
+    "aspect": 2.645,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r6c4": {
+   "id": "SYM",
+   "4.0": {
+    "apertures": 1,
+    "area": 260.0,
+    "aspect": 1.0,
+    "axis_deg": 156.4,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 226.9,
+    "aspect": 1.0,
+    "axis_deg": 137.5,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 195.4,
+    "aspect": 1.0,
+    "axis_deg": 128.2,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 166.0,
+    "aspect": 1.0,
+    "axis_deg": 143.4,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 138.9,
+    "aspect": 1.0,
+    "axis_deg": 50.9,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 114.2,
+    "aspect": 1.0,
+    "axis_deg": 141.1,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r6c5": {
+   "id": "X7S",
+   "4.0": {
+    "apertures": 1,
+    "area": 133.5,
+    "aspect": 1.417,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 111.9,
+    "aspect": 1.451,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 91.8,
+    "aspect": 1.488,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 73.6,
+    "aspect": 1.527,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 57.4,
+    "aspect": 1.574,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 43.1,
+    "aspect": 1.626,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r6c6": {
+   "id": "X6",
+   "4.0": {
+    "apertures": 1,
+    "area": 196.3,
+    "aspect": 1.665,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 168.9,
+    "aspect": 1.717,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 143.1,
+    "aspect": 1.774,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 119.1,
+    "aspect": 1.836,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 97.2,
+    "aspect": 1.904,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 77.4,
+    "aspect": 1.98,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r7c1": {
+   "id": "X7",
+   "4.0": {
+    "apertures": 1,
+    "area": 213.8,
+    "aspect": 1.441,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 185.4,
+    "aspect": 1.469,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 158.5,
+    "aspect": 1.496,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 133.5,
+    "aspect": 1.524,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 110.6,
+    "aspect": 1.552,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 89.8,
+    "aspect": 1.581,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r7c2": {
+   "id": "X4",
+   "4.0": {
+    "apertures": 1,
+    "area": 162.8,
+    "aspect": 2.263,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 136.8,
+    "aspect": 2.424,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 112.4,
+    "aspect": 2.63,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 89.8,
+    "aspect": 2.903,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 69.1,
+    "aspect": 3.283,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 50.5,
+    "aspect": 3.846,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r7c3": {
+   "id": "S155",
+   "4.0": {
+    "apertures": 1,
+    "area": 209.9,
+    "aspect": 1.421,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.49
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 184.3,
+    "aspect": 1.458,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.99
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 160.3,
+    "aspect": 1.502,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.49
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 137.8,
+    "aspect": 1.554,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.99
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 117.0,
+    "aspect": 1.618,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.49
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 97.7,
+    "aspect": 1.699,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r7c4": {
+   "id": "X8",
+   "4.0": {
+    "apertures": 1,
+    "area": 230.6,
+    "aspect": 1.263,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 200.9,
+    "aspect": 1.276,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 172.7,
+    "aspect": 1.288,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 146.4,
+    "aspect": 1.299,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 122.4,
+    "aspect": 1.31,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 100.5,
+    "aspect": 1.318,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r7c5": {
+   "id": "X5",
+   "4.0": {
+    "apertures": 1,
+    "area": 178.9,
+    "aspect": 1.942,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 152.4,
+    "aspect": 2.037,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 127.4,
+    "aspect": 2.148,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 104.2,
+    "aspect": 2.281,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 83.1,
+    "aspect": 2.443,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 63.9,
+    "aspect": 2.645,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  },
+  "r7c6": {
+   "id": "X9",
+   "4.0": {
+    "apertures": 1,
+    "area": 245.9,
+    "aspect": 1.119,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 0.5
+   },
+   "4.5": {
+    "apertures": 1,
+    "area": 214.6,
+    "aspect": 1.124,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.0
+   },
+   "5.0": {
+    "apertures": 1,
+    "area": 184.9,
+    "aspect": 1.128,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 1.5
+   },
+   "5.5": {
+    "apertures": 1,
+    "area": 157.2,
+    "aspect": 1.132,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.0
+   },
+   "6.0": {
+    "apertures": 1,
+    "area": 131.7,
+    "aspect": 1.134,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 2.5
+   },
+   "6.5": {
+    "apertures": 1,
+    "area": 108.5,
+    "aspect": 1.135,
+    "axis_deg": 90.0,
+    "ring_clearance_um": 3.0
+   }
+  }
+ }
+}

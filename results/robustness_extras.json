@@ -1,0 +1,525 @@
+{
+ "note": "MODEL PREDICTIONS; see docstring",
+ "n_pool": 177,
+ "n_pool_interior": 81,
+ "q": 16,
+ "portfolio_designs_on_a_wall": 8,
+ "portfolio_info": [
+  {
+   "id": 0,
+   "x": [
+    19.708,
+    0.5,
+    3.5,
+    1.0,
+    84.61
+   ],
+   "on_wall": [
+    "arm ratio",
+    "arm width w (um)",
+    "corner rounding rho"
+   ],
+   "aperture_area_um2": 37.16423251846524,
+   "equivalent_diameter_um": 6.878878578099952,
+   "mesa_area_um2": 85.8125
+  },
+  {
+   "id": 1,
+   "x": [
+    12.961,
+    0.844,
+    8.0,
+    0.213,
+    88.38
+   ],
+   "on_wall": [
+    "arm width w (um)"
+   ],
+   "aperture_area_um2": 84.3610689934457,
+   "equivalent_diameter_um": 10.363968789927267,
+   "mesa_area_um2": 125.9375
+  },
+  {
+   "id": 2,
+   "x": [
+    18.594,
+    0.776,
+    6.343,
+    0.518,
+    79.54
+   ],
+   "on_wall": [],
+   "aperture_area_um2": 107.66074341296888,
+   "equivalent_diameter_um": 11.708027841142917,
+   "mesa_area_um2": 164.5625
+  },
+  {
+   "id": 3,
+   "x": [
+    17.374,
+    0.723,
+    6.173,
+    0.824,
+    70.26
+   ],
+   "on_wall": [],
+   "aperture_area_um2": 87.88062359290205,
+   "equivalent_diameter_um": 10.577952787494791,
+   "mesa_area_um2": 135.4375
+  },
+  {
+   "id": 4,
+   "x": [
+    17.709,
+    0.5,
+    3.5,
+    0.0,
+    89.99
+   ],
+   "on_wall": [
+    "arm ratio",
+    "arm width w (um)",
+    "corner rounding rho"
+   ],
+   "aperture_area_um2": 33.5147171807606,
+   "equivalent_diameter_um": 6.5324010321748744,
+   "mesa_area_um2": 80.5625
+  },
+  {
+   "id": 5,
+   "x": [
+    17.379,
+    0.504,
+    4.342,
+    0.102,
+    100.44
+   ],
+   "on_wall": [
+    "arm ratio"
+   ],
+   "aperture_area_um2": 48.16853057399226,
+   "equivalent_diameter_um": 7.8313522420199995,
+   "mesa_area_um2": 94.4375
+  },
+  {
+   "id": 6,
+   "x": [
+    17.538,
+    0.645,
+    4.364,
+    0.94,
+    35.81
+   ],
+   "on_wall": [],
+   "aperture_area_um2": 51.612081456703095,
+   "equivalent_diameter_um": 8.10645070895807,
+   "mesa_area_um2": 99.6875
+  },
+  {
+   "id": 7,
+   "x": [
+    19.288,
+    0.67,
+    3.793,
+    0.161,
+    82.64
+   ],
+   "on_wall": [],
+   "aperture_area_um2": 48.87534192359624,
+   "equivalent_diameter_um": 7.888600515907438,
+   "mesa_area_um2": 107.5625
+  },
+  {
+   "id": 8,
+   "x": [
+    17.5,
+    0.7,
+    6.0,
+    0.5,
+    112.5
+   ],
+   "on_wall": [],
+   "aperture_area_um2": 87.7196454472155,
+   "equivalent_diameter_um": 10.568260094904106,
+   "mesa_area_um2": 138.5625
+  },
+  {
+   "id": 9,
+   "x": [
+    19.571,
+    0.5,
+    3.5,
+    1.0,
+    84.91
+   ],
+   "on_wall": [
+    "arm ratio",
+    "arm width w (um)",
+    "corner rounding rho"
+   ],
+   "aperture_area_um2": 36.8503783092421,
+   "equivalent_diameter_um": 6.8497707189203005,
+   "mesa_area_um2": 85.0625
+  },
+  {
+   "id": 10,
+   "x": [
+    15.582,
+    0.68,
+    5.232,
+    0.31,
+    41.21
+   ],
+   "on_wall": [],
+   "aperture_area_um2": 61.79859100246665,
+   "equivalent_diameter_um": 8.870423319845292,
+   "mesa_area_um2": 108.8125
+  },
+  {
+   "id": 11,
+   "x": [
+    13.0,
+    0.843,
+    8.0,
+    0.0,
+    89.97
+   ],
+   "on_wall": [
+    "arm width w (um)",
+    "corner rounding rho"
+   ],
+   "aperture_area_um2": 84.70653274368557,
+   "equivalent_diameter_um": 10.385167653276685,
+   "mesa_area_um2": 126.0625
+  },
+  {
+   "id": 12,
+   "x": [
+    18.458,
+    0.5,
+    3.5,
+    0.0,
+    89.99
+   ],
+   "on_wall": [
+    "arm ratio",
+    "arm width w (um)",
+    "corner rounding rho"
+   ],
+   "aperture_area_um2": 35.23972922609563,
+   "equivalent_diameter_um": 6.698404048459932,
+   "mesa_area_um2": 84.0625
+  },
+  {
+   "id": 13,
+   "x": [
+    14.394,
+    0.746,
+    5.817,
+    0.532,
+    112.11
+   ],
+   "on_wall": [],
+   "aperture_area_um2": 66.60027313657378,
+   "equivalent_diameter_um": 9.208588461194728,
+   "mesa_area_um2": 108.4375
+  },
+  {
+   "id": 14,
+   "x": [
+    15.0,
+    0.7,
+    6.0,
+    0.75,
+    45.0
+   ],
+   "on_wall": [],
+   "aperture_area_um2": 67.95611779283331,
+   "equivalent_diameter_um": 9.301850164376772,
+   "mesa_area_um2": 106.6875
+  },
+  {
+   "id": 15,
+   "x": [
+    19.387,
+    0.5,
+    3.5,
+    1.0,
+    86.1
+   ],
+   "on_wall": [
+    "arm ratio",
+    "arm width w (um)",
+    "corner rounding rho"
+   ],
+   "aperture_area_um2": 36.438160431401485,
+   "equivalent_diameter_um": 6.811351319574145,
+   "mesa_area_um2": 84.3125
+  }
+ ],
+ "reference_apertures": {
+  "circle": {
+   "aperture_area_um2": 130.16946177619025,
+   "equivalent_diameter_um": 12.873884660440982
+  },
+  "square": {
+   "aperture_area_um2": 125.03737289969175,
+   "equivalent_diameter_um": 12.617548404729197
+  },
+  "sym_cross": {
+   "aperture_area_um2": 108.23717665366706,
+   "equivalent_diameter_um": 11.739329347366246
+  },
+  "x07_0": {
+   "aperture_area_um2": 86.5169709470891,
+   "equivalent_diameter_um": 10.49556233369785
+  },
+  "x07_30": {
+   "aperture_area_um2": 86.82504131631538,
+   "equivalent_diameter_um": 10.514232072633602
+  },
+  "x07_60": {
+   "aperture_area_um2": 87.55418724799983,
+   "equivalent_diameter_um": 10.558288379813296
+  },
+  "x07_90": {
+   "aperture_area_um2": 87.98643295783177,
+   "equivalent_diameter_um": 10.584318865288434
+  },
+  "x06_0": {
+   "aperture_area_um2": 79.29195549423153,
+   "equivalent_diameter_um": 10.047768573899189
+  },
+  "x06_90": {
+   "aperture_area_um2": 81.2500679839199,
+   "equivalent_diameter_um": 10.171076618015775
+  },
+  "A0": {
+   "aperture_area_um2": 86.96564032080744,
+   "equivalent_diameter_um": 10.522741671715922
+  },
+  "A30": {
+   "aperture_area_um2": 87.2812183517816,
+   "equivalent_diameter_um": 10.54181667067649
+  },
+  "A45": {
+   "aperture_area_um2": 87.62393933358612,
+   "equivalent_diameter_um": 10.562493295855706
+  },
+  "A60": {
+   "aperture_area_um2": 87.9854977959958,
+   "equivalent_diameter_um": 10.58426261754074
+  },
+  "A90": {
+   "aperture_area_um2": 88.37529678567489,
+   "equivalent_diameter_um": 10.607682246618609
+  },
+  "A120": {
+   "aperture_area_um2": 87.98549779599614,
+   "equivalent_diameter_um": 10.58426261754076
+  },
+  "A135": {
+   "aperture_area_um2": 87.62393933358612,
+   "equivalent_diameter_um": 10.562493295855706
+  },
+  "A150": {
+   "aperture_area_um2": 87.28121835178183,
+   "equivalent_diameter_um": 10.541816670676504
+  },
+  "B0": {
+   "aperture_area_um2": 67.36072859699723,
+   "equivalent_diameter_um": 9.261012007975673
+  },
+  "B30": {
+   "aperture_area_um2": 67.65588284650369,
+   "equivalent_diameter_um": 9.281279301590803
+  },
+  "B45": {
+   "aperture_area_um2": 67.95611779283331,
+   "equivalent_diameter_um": 9.301850164376772
+  },
+  "B60": {
+   "aperture_area_um2": 68.28522799236657,
+   "equivalent_diameter_um": 9.324347301615143
+  },
+  "B90": {
+   "aperture_area_um2": 68.61952574091234,
+   "equivalent_diameter_um": 9.34714361258572
+  },
+  "B120": {
+   "aperture_area_um2": 68.28522799236652,
+   "equivalent_diameter_um": 9.32434730161514
+  },
+  "B135": {
+   "aperture_area_um2": 67.95611779283342,
+   "equivalent_diameter_um": 9.301850164376779
+  },
+  "B150": {
+   "aperture_area_um2": 67.65588284650357,
+   "equivalent_diameter_um": 9.281279301590795
+  }
+ },
+ "interior_box": "arm ratio >= 0.6, 4.5 <= w <= 7.5 um, 13 <= L <= 19 um",
+ "interior_portfolio": {
+  "designs": [
+   [
+    17.374395236372948,
+    0.7230343949049711,
+    6.173421188723296,
+    0.82432696595788,
+    70.26361925527453
+   ],
+   [
+    17.5,
+    0.7,
+    6.0,
+    0.0,
+    90.0
+   ],
+   [
+    18.593714892864227,
+    0.7757643810473382,
+    6.343073461204767,
+    0.5177368354052305,
+    79.5363636687398
+   ],
+   [
+    15.0,
+    0.7,
+    6.0,
+    0.75,
+    90.0
+   ],
+   [
+    18.43074480444193,
+    0.6542860451154411,
+    5.060633328277618,
+    0.8029025420546532,
+    90.96683040261269
+   ],
+   [
+    17.5,
+    0.7,
+    6.0,
+    0.5,
+    112.5
+   ],
+   [
+    16.468864127993584,
+    0.710667418781668,
+    7.164371934253722,
+    0.21818095725029707,
+    106.19122378528118
+   ],
+   [
+    15.582119971513748,
+    0.6798305758275092,
+    5.231528926175088,
+    0.31042128056287766,
+    41.20575584471226
+   ],
+   [
+    15.0,
+    0.7,
+    6.0,
+    0.75,
+    120.0
+   ],
+   [
+    14.393528588116169,
+    0.7459677495062351,
+    5.8173113176599145,
+    0.5319618415087461,
+    112.10763154551387
+   ],
+   [
+    15.0,
+    0.7,
+    6.0,
+    0.75,
+    45.0
+   ],
+   [
+    14.144950740039349,
+    0.8428690270520747,
+    6.5484839719720185,
+    0.637981167063117,
+    174.75978266447783
+   ],
+   [
+    16.81664664298296,
+    0.9735174812376499,
+    7.438208237290382,
+    0.9611485600471497,
+    53.96993475034833
+   ],
+   [
+    13.985044874250889,
+    0.9229432186111808,
+    5.529623492155224,
+    0.34164168033748865,
+    116.87742630019784
+   ],
+   [
+    17.649912141263485,
+    0.8476560637354851,
+    5.211916810832918,
+    0.6016609836369753,
+    103.75624218955636
+   ],
+   [
+    18.4973182156682,
+    0.8886679946444929,
+    6.865787324495614,
+    0.4301926987245679,
+    144.24400102347136
+   ]
+  ],
+  "origin": [
+   "sobol",
+   "mask:A90",
+   "sobol",
+   "mask:B90",
+   "sobol",
+   "rotfam",
+   "sobol",
+   "sobol",
+   "mask:B120",
+   "sobol",
+   "mask:B45",
+   "sobol",
+   "sobol",
+   "sobol",
+   "sobol",
+   "sobol"
+  ],
+  "test_same_devices": {
+   "E_best_yield": 0.8257378472222222,
+   "P_some_design_ge_half": 0.9375
+  }
+ },
+ "portfolio_same_devices": {
+  "E_best_yield": 0.8569878472222223,
+  "P_some_design_ge_half": 0.9375
+ },
+ "test_fresh_devices": {
+  "n_dev": 48,
+  "seed": 9999,
+  "portfolio": {
+   "E_best_yield": 0.8575303819444444,
+   "P_some_design_ge_half": 0.9375
+  },
+  "interior_portfolio": {
+   "E_best_yield": 0.810329861111111,
+   "P_some_design_ge_half": 0.90625
+  },
+  "author_mask": {
+   "E_best_yield": 0.671115451388889,
+   "P_some_design_ge_half": 0.6875
+  },
+  "apl126_seven": {
+   "E_best_yield": 0.5773654513888888,
+   "P_some_design_ge_half": 0.59375
+  }
+ }
+}
