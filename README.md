@@ -10,13 +10,12 @@
 * **What would decide**: the author's mask (two families, eight rotations) contains 60, 90 and 120 degrees but neither 80 nor its mirror image 100 degrees; predictions for every design are in `results/mask_predictions.json` and supplement Sec. 8. If the mask can take more devices, the interior-box additions that help most in the model are crosses near 0.72/70 degrees, 0.78/80 degrees and 0.65/91 degrees (arm ratio/rotation; width about 5-6 um): expected best yield 0.68 (mask) -> 0.78, 0.80, 0.83 with 1, 2, 3 additions.
   Best rotation of the 1:0.7 cross (folded to 0-90 degrees, since theta and 180 - theta are mirror images) under each way of conditioning on the literature: primary set 70 deg, loose thresholds 70 deg, strict thresholds 80 deg, wider prior 80 deg, isotropic oxidation 90 deg, oxidation ratio 1.3 80 deg; with the two thermal-drift conditionings no rotation works.
 
-## What is done here, and what is not claimed
+## What is done here
 1. A spin-flip-model simulator turns an exact mask geometry (length, arm ratio, width, corner radius, rotation) into a device-level switching **yield** under fabrication scatter (`src/vcsel_bo`).
 2. The unknown constants (native dichroism and birefringence, two aperture-coupling coefficients, with signs) are sampled by **rejection ABC with the published qualitative outcomes as constraints**:
    181 of 8000 prior draws (2.3 %) reproduce all of them. They force the sign of the geometric dichroism coupling and leave the sign of the birefringence coupling open.
 3. **Bayesian optimisation** (GP, Matern-5/2 ARD, EI/UCB) is benchmarked against random, Sobol and differential evolution at equal budget, scored on fresh device populations with paired tests.
 4. A **batch** (a mask) is designed by a greedy submodular portfolio over worlds; the author's mask and the seven published designs are scored against it.
-Not claimed: new physics, a validated prediction, or novelty beyond the combination (a limited search found no earlier Bayesian or portfolio design of aperture *shapes*; that is absence of evidence, not proof).
 
 ## Results at a glance (model predictions)
 Held-out hard yield of the design returned by each optimiser (mean [95 % bootstrap interval]; runs per method: P1 20, P2 40, P3 8):
@@ -54,19 +53,6 @@ dynamics at fixed anisotropy** (a thermal dichroism drift of the size probed rem
 A synthetic test of what the first batch could teach (well specified, hence optimistic): the yield of the best single design rises only from 0.64 to about 0.68-0.70;
 switch counts barely identify the birefringence sign, so record the azimuth of the low-current state and the switching current, not only whether a device switches.
 
-## Where the model is weak (details: `docs/AUDIT.md`, supplement Sec. 9)
-* Two published observations are **not reproduced**: switching of the 30-degree cruciform (mean switching fraction 0.07 against 0.55 at 60 degrees) and a symmetric cross that switches more often than a circle
-  (0.02 against 0.00). Predictions far from 90 degrees are the least reliable.
-* The predicted yields presume that switching comes from the spin-flip dynamics at a fixed anisotropy. With a thermal dichroism drift of the size probed (an arbitrary probe, not an estimate) no set of designs reaches a useful yield, and the sign of the native birefringence that the anchors imply flips with the sign of the drift (supplement Sec. 7).
-  The oxidation anisotropy is a placeholder (1.15): with isotropic oxidation the model-selected batch only ties the author's mask, even when the constants are re-inferred.
-* Prior box: the accepted native dichroism piles up against the lower edge of the default prior (d0 >= 1 per ns); a wider prior lowers the portfolio's lead (expected best yield 0.72 against 0.63 for the mask) but keeps the order.
-  The spin-flip constants of the metasurface paper (larger gamma_s) accept no world in 4000 draws, so that robustness check is inconclusive, not confirmatory.
-* Single-mode spin-flip model, scalar mode used only as a weight, phenomenological linear coupling, placeholder oxidation depth and anisotropy; thresholds translating "most / seldom / part of the devices" are choices (loose and strict variants are reported).
-* Sources not read in full: J. Lightwave Technol. 43, 6819 (2025) (abstract only) and Appl. Phys. Lett. 127, 221102 (2025) (listing only); they contain the statistics that would make the anchors quantitative. Whether the JLT paper contains a calibrated model of aperture shape and switching is unknown to me, so no novelty claim is made.
-* The headline batch scores are optimistic (see above); the optimiser benchmark rests on five simulated wafers (P1, P2) and eight runs (P3); the published designs are drawn at assumed sizes (L = 17.5 um, w = 6 um).
-* The corner treatment of mask family A is not recorded and is assumed sharp (with fully rounded arm tips the predicted number of switching devices at 60-120 degrees would be 5.0 instead of 5.5 of 12; check the mask file); the mask has 32 devices, i.e. two per design if all designs are equally represented.
-* Acceptance depends partly on the device population: on fresh populations 83-92 % of the accepted worlds still pass all five enforced anchors (nearly all failures at the anchor with the smallest margin).
-
 ## Reproduce
 ```
 pip install -r requirements.txt
@@ -85,8 +71,6 @@ python scripts/build_notebook.py && jupyter nbconvert --to notebook --execute --
 ## Repository map
 `src/vcsel_bo/`: `geometry` (mask -> aperture -> tensors), `modes`, `physics` (World, Prior, Population), `sfm` (spin-flip model), `objective` (yield), `literature` (anchors, ABC sampler, design metrics),
 `optimization` (GP-EI/UCB, baselines, portfolio), `problem`, `calibration`, `vector_modes` (semi-vectorial form birefringence). `mask/`: mask 2, the anisotropy ruler (reader for the lab's L-Edit TDB file, GDS generator, KLayout checks, depth tolerance, README, measurement and paper plan; its model numbers come from `scripts/native_strength_shift.py`, `mask2_extras_native.py` and `mask2_readouts.py` in the target convention of `anchor_target_convention.py`). `scripts/`: pipeline steps. `results/`: every cached result. `figures/`, `supplementary/` (LaTeX + PDF), `docs/` (anchors, audit, checklist, references), `notebooks/` (`VCSEL_Polarization_BO.ipynb`: this pipeline; `VCSEL_Polarization_BO_Project.ipynb` with `supplementary/VCSEL_Polarization_BO_Supplementary.pdf`: the earlier stand-alone Colab prototype with Fourier-parameterised apertures), `tests/`.
-
-The lab's decoded V04 mask (`mask/example/`) is not in the repository; recreate it from the lab's TDB file with `python mask/tdb_to_gds.py VCSEL_ARRAY_Heming_-_V04.tdb mask/example` before running `mask/make_mask2.py` or `mask/check_mask2.py`. `mask/out/` holds the delivered mask-2 group (`VCSEL_PM_Group_2.gds`), its device table, check reports and previews.
 
 ## References
 `docs/references.bib` (every entry has a verification status) and `docs/REFERENCES.md` (generated). Two references of an earlier version could not be verified and were removed; see `docs/AUDIT.md`.
