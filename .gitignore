@@ -18,3 +18,4 @@ results/*.partial.pkl
 results/sensitivity_parts/
 mask/out/*_stdout.txt
 *.blg
+*.bbl

@@ -64,7 +64,7 @@ dynamics at fixed anisotropy** (a thermal dichroism drift of the size probed rem
 A synthetic test of what the first batch could teach (well specified, hence optimistic): the yield of the best single design rises only from 0.64 to about 0.68-0.70;
 switch counts barely identify the birefringence sign, so record the azimuth of the low-current state and the switching current, not only whether a device switches.
 
-## Where the model is weak (details: `docs/AUDIT.md`, supplement Sec. 10)
+## Where the model is weak (details: `docs/AUDIT.md`, supplement Sec. 9)
 * Two published observations are **not reproduced**: switching of the 30-degree cruciform (mean switching fraction 0.07 against 0.55 at 60 degrees) and a symmetric cross that switches more often than a circle
   (0.02 against 0.00). Predictions far from 90 degrees are the least reliable.
 * The predicted yields presume that switching comes from the spin-flip dynamics at a fixed anisotropy. With a thermal dichroism drift of the size probed (an arbitrary probe, not an estimate) no set of designs reaches a useful yield, and the sign of the native birefringence that the anchors imply flips with the sign of the drift (supplement Sec. 7).
@@ -87,6 +87,7 @@ bash scripts/run_all.sh                   # designs, batch, checks, benchmarks, 
 bash scripts/run_extra.sh                 # wider prior, re-conditioned worlds, sensitivity, best rotation per set of worlds, further-worlds check, wafer-level benchmark statistics (~20 min)
 python scripts/value_of_first_batch.py && python scripts/window_dependence.py && python scripts/mask_additions_interior.py
 python scripts/make_figures.py && python scripts/make_tables.py && python scripts/make_readme.py
+cp figures/{rotation_scan,designs,benchmark,batch_shapes,anchored_worlds}.png supplementary/figures/   # the supplement compiles on its own, as on Overleaf
 cd supplementary && pdflatex supplement && bibtex supplement && pdflatex supplement && pdflatex supplement
 python scripts/build_notebook.py && jupyter nbconvert --to notebook --execute --inplace notebooks/VCSEL_Polarization_BO.ipynb
 ```
