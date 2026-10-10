@@ -1,15 +1,5 @@
 # Bayesian optimization of VCSEL oxide-aperture geometry for polarization-switching photonic Ising machines
 
-> **Status: a literature-anchored simulation study.** The constants of the device model are *not measured*. They are constrained only by the qualitative outcomes that
-> fabricated tailored-aperture VCSELs show in the published experiments (Yuan et al. 2025; see `docs/LITERATURE_ANCHORS.md`). Every number below is a **model prediction conditional on
-> those constraints**. No measurement of the author's own devices is used and nothing is validated on a device of this project; what the study delivers is a design pipeline,
-> testable predictions for the author's mask, and a calibration protocol for its first measurements. The published outcomes *constrain* the model; because they select its constants they cannot also *validate* it.
-
-## Question
-Photonic Ising machines can encode a spin in the two orthogonal linear polarizations of a VCSEL, but crystal anisotropy pins the light to one of them. Tailored oxide apertures can compensate this.
-**Which oxide-aperture geometry gives the best polarization switching for an Ising node, and how should a fabrication batch be chosen when the constants of the wafer are not known?**
-
-## Short answer (conditional; details in `supplementary/supplement.pdf`, Sec. 4)
 * **Experiments** (Yuan et al., APL 126, 151101): the text that was read reports injection-locking power for the 1:0.7 cruciform rotated by 60 degrees (248 uW at 10 mA; 3.6 uW just above threshold) and for the non-switchable square (371 uW at 10 mA); it does not rank all seven designs.
   That is an injection-locking measurement, not a yield, and the number of devices per design is not stated in the text that was read.
 * **This model**, over 181 literature-consistent worlds: symmetric apertures (circle, square) do not work; a rotated 1:0.7 cross has a yield that rises between 50 and 70 degrees, a plateau between 70 and 110 degrees,
